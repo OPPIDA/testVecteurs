@@ -1,0 +1,14 @@
+{
+  "OpenSSL": {
+    "type": "C",
+    "libName": "OpenSSL",
+    "binary_dir": "bin/OpenSSL",
+    "description": "The OpenSSL cryptographic library, written in C.\nAll versions of branches 1.0.2, 1.1.0 and 1.1.1 are compatible with this tool, except FIPS."
+  },
+  "mbedTLS": {
+    "type": "C",
+    "libName": "mbedTLS",
+    "binary_dir": "bin/mbedTLS",
+    "description": "The mbedTLS cryptographic library"
+  }
+}

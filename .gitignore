@@ -1,0 +1,8 @@
+*.o
+*.bin
+.idea/
+*.pyc
+bin/OpenSSL/libs/
+*.class
+bin/BouncyCastle/libs/
+bin/mbedTLS/libs/

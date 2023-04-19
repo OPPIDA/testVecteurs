@@ -1,0 +1,61 @@
+{
+  "type": "null",
+  "alg": "PBKDF2",
+  "mode": "null",
+  "vectors": [
+    {
+      "pt": "70617373776f7264",
+      "salt": "73616c74",
+      "iterations": 1,
+      "operation" : "HASH",
+      "hash_function" : "SHA1",
+      "expected" : "OK",
+      "digest": "0c60c80f961f0e71f3a9b524af6012062fe037a6"
+    },
+    {
+      "pt": "70617373776f7264",
+      "salt": "73616c74",
+      "iterations": 2,
+      "operation" : "HASH",
+      "hash_function" : "SHA1",
+      "expected" : "OK",
+      "digest": "ea6c014dc72d6f8ccd1ed92ace1d41f0d8de8957"
+    },
+    {
+      "pt": "70617373776f7264",
+      "salt": "73616c74",
+      "operation" : "HASH",
+      "hash_function" : "SHA1",
+      "expected" : "OK",
+      "iterations": 4096,
+      "digest": "4b007901b765489abead49d926f721d065a429c1"
+    },
+    {
+      "pt": "70617373776f726450415353574f524470617373776f7264",
+      "salt": "73616c7453414c5473616c7453414c5473616c7453414c5473616c7453414c5473616c74",
+      "iterations": 4096,
+      "operation" : "HASH",
+      "hash_function" : "SHA1",
+      "expected" : "OK",
+      "digest": "3d2eec4fe41c849b80c8d83662c0e44a8b291a964cf2f07038"
+    },
+    {
+      "pt": "7061737300776f7264",
+      "salt": "7361006c74",
+      "iterations": 4096,
+      "operation" : "HASH",
+      "hash_function" : "SHA1",
+      "expected" : "OK",
+      "digest": "56fa6aa75548099dcc37d7f03425e0c3"
+    },
+        {
+      "pt": "70617373776f7264",
+      "salt": "73616c74",
+      "iterations": 16777216,
+      "operation" : "HASH",
+      "hash_function" : "SHA1",
+      "expected" : "OK",
+      "digest": "eefe3d61cd4da4e4e9945b3d6ba2158c2634e984"
+    }
+  ]
+}

@@ -1,0 +1,1507 @@
+{
+    "type": null,
+    "alg": "ECDSA",
+    "mode": null,
+    "vectors": [
+        {
+            "operation": "SIGN",
+            "expected": "OK",
+            "curve": "secp192r1",
+            "digest": "608079423f12421de616b7493ebe551cf4d65b92",
+            "da": "e14f37b3d1374ff8b03f41b9b3fdd2f0ebccf275d660d7f3",
+            "k": "cb0abc7043a10783684556fb12c4154d57bc31a289685f25",
+            "r": "6994d962bdd0d793ffddf855ec5bf2f91a9698b46258a63e",
+            "s": "02ba6465a234903744ab02bc8521405b73cf5fc00e1a9f41"
+        },
+        {
+            "operation": "SIGN",
+            "expected": "OK",
+            "curve": "secp192r1",
+            "da": "7a0235bea3d70445f14d56f9b7fb80ec8ff4eb2f76865244",
+            "digest": "98cff299c35616bfd081543998a5a367b43214e1",
+            "r": "a3ba51c39c43991d87dff0f34d0bec7c883299e04f60f95e",
+            "s": "8a7f9c59c6d65ad390e4c19636ba92b53be5d0f848b4e1f7",
+            "k": "3c646b0f03f5575e5fd463d4319817ce8bd3022eaf551cef"
+        },
+        {
+            "operation": "SIGN",
+            "expected": "OK",
+            "curve": "secp192r1",
+            "da": "e16f2aaee2aec553ecd538367a03c3d72bfcc5c7ab4d4ca0",
+            "digest": "1b74bda7ce1869d2568a47ff037277201e164072",
+            "r": "7fd327a0e6ef4c27b09483818fd784f569f97e6c979a4f31",
+            "s": "95a1db7b13790e2205dfdb81c2da97bb9bc3d7dd3dd0d91a",
+            "k": "aed61c2dacf8aff0e85c0c5f8f4daa19bdcea7f5ee33027c"
+        },
+        {
+            "operation": "SIGN",
+            "expected": "OK",
+            "curve": "secp192r1",
+            "da": "2a004cbd89d7a6cbe2c39e362fb537845b19cd6c50e08527",
+            "digest": "8d7ad543dab503315b22ab60ca78ac33593831c1",
+            "r": "de556e8d15a5e1e7d318c7051341ac0dc6698950b8c5b859",
+            "s": "8f36c906d66cb47388b09343129dc29176469db84ddd8d95",
+            "k": "7bdd329bb76fe8045bc86851b1dcff3c96363c8b07bbfca8"
+        },
+        {
+            "operation": "SIGN",
+            "expected": "OK",
+            "curve": "secp192r1",
+            "da": "6019413d76958e73e6ba530192f4851097b5ce075e1db438",
+            "digest": "5f003bc523b736dd947c81a421f11847c0ad4f7e",
+            "r": "79256149f44a11515d91b470aab4be1f252927f5df0dd84b",
+            "s": "cc2a17eddfc48db85f449f0fd72cff5e304febeffe670889",
+            "k": "372cb07b0e19db159ed5594b75c21d9f1b9647a2f475eb2f"
+        },
+        {
+            "operation": "SIGN",
+            "expected": "OK",
+            "curve": "secp192r1",
+            "da": "3ebdf68ae0d42d48838f042aecff7ebbdf387ad82bfd3501",
+            "digest": "eacd9a907545826ffa83ccd17832f84473388885",
+            "r": "0215f1173796e6a61ea99b8d91319a29c3539fc312ad57a8",
+            "s": "8f22035e01ddb27e1a2ae824461d858b99748d455d3332ab",
+            "k": "eab771d6dbec1687a464abaab925d799a84468709af69714"
+        },
+        {
+            "operation": "SIGN",
+            "expected": "OK",
+            "curve": "secp192r1",
+            "da": "0ff956a1d81ab1f5c8a2e87340a2429d4b9b3cec54c58944",
+            "digest": "69d0558ec15d0848a79b63634e0f9051a50dc885",
+            "r": "b5de4fdf1a0e0d59197720a549eb0ef52a49649f1a70f050",
+            "s": "683e32589d61512acf24201a0fe8b2f4569d953803f55e35",
+            "k": "efc787869f6be3a130f59803e5cd751167de4e851449f2d0"
+        },
+        {
+            "operation": "SIGN",
+            "expected": "OK",
+            "curve": "secp192r1",
+            "da": "f310bd616126225ddf94fb886b62f894585619365aba1317",
+            "digest": "7f276bf574a4c80a68edd070385d8bbcbee084a5",
+            "r": "08975a982c05da87ba46ae400ac47b017aa7a82d9a6a8069",
+            "s": "4ec2b5db62bd287b2ca1ead38e52c36ae03762196848a36a",
+            "k": "017448988e6169673975943a6d2de804741d4e8ac16f1545"
+        },
+        {
+            "operation": "SIGN",
+            "expected": "OK",
+            "curve": "secp192r1",
+            "da": "63cd3c5af5d24d2f79f43a4b07a21191c7fc5ff5e1704713",
+            "digest": "5bb5e23c2775462d7674568bb686f1b9162c9305",
+            "r": "edb1ff080df6374a3222103d081f4dbbdc50a4028a5595f0",
+            "s": "ecbb3f470175c9bf1085237661263efaad3a177423865b6b",
+            "k": "9f32e05576c3ab9dd2d0cdf30d2c3e4995e27b5102d98c59"
+        },
+        {
+            "operation": "SIGN",
+            "expected": "OK",
+            "curve": "secp192r1",
+            "da": "e4bce33ca654556851e4d6abf5730c54f8006076261f21dd",
+            "digest": "b605eab9e087f7732156a2f536a8cb7bad2e0380",
+            "r": "8856b1451f0ff744aba86e9e567be739f0715eaaf5a54402",
+            "s": "320005598a5d26f18ffd188b34a1680ab7f08aa3834a782a",
+            "k": "df31b5371d6f6dadc1f6e752d23dcf748c424b7b27f4ebc8"
+        },
+        {
+            "operation": "SIGN",
+            "expected": "OK",
+            "curve": "secp192r1",
+            "da": "694b9faf76b8c6be78bb33ccf1cd6f34809ab57d049f8eeb",
+            "digest": "4faffccea0c4d580f9b3dccfd4639a9364f14536d02cfc50103946b0",
+            "r": "0361ca48731dc017023c59beff86096b56242708e4bc9e41",
+            "s": "f765431cdc56a73ef3ae3f1b588e723801b6592508d452bf",
+            "k": "41e8c2b1bc11fa47f5a23753d016fe2e366009083400d58e"
+        },
+        {
+            "operation": "SIGN",
+            "expected": "OK",
+            "curve": "secp192r1",
+            "da": "9bf40c7b6e7b687436a1053965d35d9c823994b5c106a715",
+            "digest": "369d890de5b9ad58974414f325e73c3469adf9932cbc3634807acd51",
+            "r": "adbf6e13bcd016d54c760cdf058e9c8ec856e368a819c9f2",
+            "s": "79d85948d6da496f4d6f3abc5f429380836fed2829b4ae21",
+            "k": "fbd305598e1446f4cfecbb712f1f877c1e1fad60aa8746ae"
+        },
+        {
+            "operation": "SIGN",
+            "expected": "OK",
+            "curve": "secp192r1",
+            "da": "c18fca3ae1e6e59a8d547f7c51d651d585c1a00d4487a89c",
+            "digest": "93708b71d6bedbee39a9ab293726786d5f69c9aff305304c28894175",
+            "r": "25f8672a233d269e47f6b9104ae1c7aa06f088bffe860231",
+            "s": "f69f1e2a437198db3f16913e01852afe839f1f4fdfb40045",
+            "k": "e8cfee2c294149c4c6f44a38d8ca400e044fa667ad1600e3"
+        },
+        {
+            "operation": "SIGN",
+            "expected": "OK",
+            "curve": "secp192r1",
+            "da": "80fdcf2629764d5e32c886557842fbcf7ccaed75135708f3",
+            "digest": "52161f5b2f01c6dabe050f22be2d662c99352f74a69739b433711070",
+            "r": "db452ab10b4c37e88ce2b5f49275d0594537bb980d0c940f",
+            "s": "624d5e6efcd448bd0e00e476a8d51fb4c8f33b24c662f9ff",
+            "k": "505fc8a3b1d13917cde4298cad3d3bbf4382eef865c15ac8"
+        },
+        {
+            "operation": "SIGN",
+            "expected": "OK",
+            "curve": "secp192r1",
+            "da": "1537cc897234bfb3f9bf1d3bf47fe6b7c1dc3ef3160a16f1",
+            "digest": "aa6ca731e3bd21a1cf5c20c2978c4c43c4c72d15b5401160a6ae17e5",
+            "r": "fa2725f4961e4ce4b0b6dcf404e68220ff97c56e48a508cf",
+            "s": "a975151a287825acb9b4db9ff307d87caee670634fce4728",
+            "k": "4c9aa9983fb10955b67628ba89698dc37998a56ea4e3353f"
+        },
+        {
+            "operation": "SIGN",
+            "expected": "OK",
+            "curve": "secp192r1",
+            "da": "37fb67a54fd7c2bc424fbb86f8f85f8dd41691b0d43d8b58",
+            "digest": "e8b70b71150418c209061b5e7eb8b6a046726677c9db817e73dc9451",
+            "r": "cacb64bdc2b52ca5e42af4e9bc4134eba76d8d21f919921d",
+            "s": "9493b1cd8d1b29e7bea04e05209351c308f5c45932b4e24f",
+            "k": "336cf60b65a4aebb6edecaa9d73f0fa9737a40b208f53a58"
+        },
+        {
+            "operation": "SIGN",
+            "expected": "OK",
+            "curve": "secp192r1",
+            "da": "2d78065f888d60a61a151f7a2a00fb6f4255ed3fad880855",
+            "digest": "a2489b8e6b51215abd73f7a9d6e95cd4e1e071b26534ff2dd9d71b30",
+            "r": "d03b274f3ba74f5652ad575de4b498a621d307a789873612",
+            "s": "739f651595ea46c1a49f409742b4fee953c820b9f6d975a9",
+            "k": "c3c0399c8c18e7fc43c6e3b818bb4e80a81de0556352f29c"
+        },
+        {
+            "operation": "SIGN",
+            "expected": "OK",
+            "curve": "secp192r1",
+            "da": "65aec2a36912b5714e22b58cd9d6cb3b54253bf676baa711",
+            "digest": "53277ce5274313cfb4460a1d79e5f9e71cb9ee4b1b3dd7c7350d8500",
+            "r": "47318e43b12f5cc56d2eb9d2bb406b8f4ae464988efd14d2",
+            "s": "e2079f42e31cdab11a50bd80852596b7d673a26eb0e69f98",
+            "k": "af44b8a6efb701d57e49138d50db9170873b0e468a05d19e"
+        },
+        {
+            "operation": "SIGN",
+            "expected": "OK",
+            "curve": "secp192r1",
+            "da": "c96e19470bf31bdb2a4d86289daee863e385cc12d0b7e8d5",
+            "digest": "dd5b3c41f487094e34e2156f7495f036b9048cba33321a32727d2260",
+            "r": "8d0e42da8169474e73a6bac0e0774016820209399d1819f7",
+            "s": "4e85315a5d4d2f731c7956155ee2cf0bdf4146e41d73985e",
+            "k": "4155b19d99e89ca9c119249c060f3448174c4c064a259cf8"
+        },
+        {
+            "operation": "SIGN",
+            "expected": "OK",
+            "curve": "secp192r1",
+            "da": "0fc6a4d9feacf03bce8514b43520856ec53e3107a17ec5f0",
+            "digest": "ecf5d286be72fd1d902ff26ee813e3c1bcae9fbe6e509f57bfa7b1b4",
+            "r": "1f32bf39803b4faf03349d4934f0c449e0ae516ac1d43653",
+            "s": "bd036cf082f4d2b0d879aade37e91b6826ba63c197d89db6",
+            "k": "c1521e6f776d2135e80c68a92345a0485e283f91758766f9"
+        },
+        {
+            "operation": "SIGN",
+            "expected": "OK",
+            "curve": "secp192r1",
+            "da": "24edd22f7ddd6fa5bc61fc0653479aa40809ef865cf27a47",
+            "digest": "5ae8317d34d1e595e3fa7247db80c0af4320cce1116de187f8f7e2e099c0d8d0",
+            "r": "354abaecf4361fea90c29b9199882edf8573e686a813eff8",
+            "s": "80f50000ac86111c9b3047385a15d78e632c58b7949e82c1",
+            "k": "a5c817a236a5f7faa329b8ecc3c596687c71aaaf86c7703e"
+        },
+        {
+            "operation": "SIGN",
+            "expected": "OK",
+            "curve": "secp192r1",
+            "da": "e586581cf94fc8be2b9316aee98b42d9d3f446153019f297",
+            "digest": "586052916fb6f746e1d417766cceffbe1baf95579bab67ad49addaaa6e798862",
+            "r": "43e4113f185064fc46a4d95248b6bd3c157173c13d63a4cc",
+            "s": "4603d99289017408b889aa49b04ec5c7bbe245e6ce01d5e9",
+            "k": "06575ab99793a044f67597c43088749723ac7ef65ee3011d"
+        },
+        {
+            "operation": "SIGN",
+            "expected": "OK",
+            "curve": "secp192r1",
+            "da": "8068271d4019a978ad6a5b642cf20c40c7318ad1b56be09e",
+            "digest": "c36d0ecf4bfd178835c97aae7585f6a87de7dfa23cc927944f99a8d60feff68b",
+            "r": "24613dc9e28b26092cb07696d5bdff019e6f3f85498bd240",
+            "s": "e727ac11d6e499674771e37bd7c32606befb0a49e27c3876",
+            "k": "e58863ea4eef46c3448107c37875c38f811c9171dd63466d"
+        },
+        {
+            "operation": "SIGN",
+            "expected": "OK",
+            "curve": "secp192r1",
+            "da": "c1be68b712e2f0ce5f2fb2b854e5566e0e220c4917ed1d50",
+            "digest": "a761293b02c5d8327f909d61a38173556c1f1f770c488810a9b360cf7786c148",
+            "r": "d32d60408aac53fb922180940171dd7f36edb3f51627ac0d",
+            "s": "1b4c853eeaadcb703c534e9dadbfabc4f2c5ea35734fe398",
+            "k": "523977b6a35111c673241cadbf0a441e1df2693f8b0a397c"
+        },
+        {
+            "operation": "SIGN",
+            "expected": "OK",
+            "curve": "secp192r1",
+            "da": "97ed7b71cfd2e54fcbc3405eb1954fad518e8c6df1b39310",
+            "digest": "08ec76ab0f1bc9dc27b3b3bd4f949c60ecc8bbf27678b28f2ee8de055ee8bf59",
+            "r": "adabac1edc082f49e251549a142c91e4d6b8371fc1dab450",
+            "s": "d0db4f9c8510e729e6ba384e2a7ed38d3738acb227ede72b",
+            "k": "96c912c92254cfa88481762356029ac423633a5c1ca31f3a"
+        },
+        {
+            "operation": "SIGN",
+            "expected": "OK",
+            "curve": "secp192r1",
+            "da": "0908bba29266577f6187279b4e7b89c69c3c0a954c9b953e",
+            "digest": "ffbe3fd342a1a991848d02258cf5e3df301974b7a8f0fe10a88222a9503f67e0",
+            "r": "ac16cb38f2b94478a2525cd3ae812fde821814ecc4727855",
+            "s": "ad67bb35a0bd238b703455fbe540e65d2d277c338c83ead5",
+            "k": "62e18e8b5fa1e1c3b12e51d469ee571eafb72de51c438dfa"
+        },
+        {
+            "operation": "SIGN",
+            "expected": "OK",
+            "curve": "secp192r1",
+            "da": "cf86e30f9fb18c6b916a09ba6acf0ef6c05035f0b5153be9",
+            "digest": "434fea583df79f781e41f18735a24409cf404f28e930290cc97c67ef158e5789",
+            "r": "bea8ddfa0a420568b2dbd19b6fc16abf7a63ed66c0f67525",
+            "s": "bd8cd2940b16a059c1e13741d570048485aef4a9744add7b",
+            "k": "746f6dd3558d7ff42930cb00de422529670405de2544da03"
+        },
+        {
+            "operation": "SIGN",
+            "expected": "OK",
+            "curve": "secp192r1",
+            "da": "8f7864b2b4e0f6135516d1b00c867953d4523571a1329e7b",
+            "digest": "c352f58e118fc0d7810b8020bdb306b7dc115b41bbb0b642c7ea73a60cc2a4eb",
+            "r": "58fabec32dc6c1442220f34f121a02ab7a86861f7f393008",
+            "s": "54c7a528d3a347f5fe67ed50a58453223a3ae7e0780459ca",
+            "k": "12e9360f731d5c1d15a0e68b0ddcd80db51a76d74cee6dbe"
+        },
+        {
+            "operation": "SIGN",
+            "expected": "OK",
+            "curve": "secp192r1",
+            "da": "5e3c2eae83ee1bc82619c86a95524c288919e9de4ad0a521",
+            "digest": "6ff9153ede285fc0e486f1dd4dd9e32a0fb23e9653c55841b67c2e5a090aac63",
+            "r": "6f63ce464eb669e6adc8861c48bfc9e93ca2fa3ae9ada322",
+            "s": "3b21e66324a8ae892c84550b185eea0ef488b78984d1fb74",
+            "k": "d09fa3ff3cc8595065ae3df5c500b0e9be2787857e47f14d"
+        },
+        {
+            "operation": "SIGN",
+            "expected": "OK",
+            "curve": "secp192r1",
+            "da": "29ac61422184d4e49b867afdb3eeb2f40df2e0bf3186c6ee",
+            "digest": "8e19143e34fee546fab3d56e816f2e21586e27912a2ad7d80af75942e0ff585a",
+            "r": "d5dea485b93d307ca9b0627515d41593a2370d76571be031",
+            "s": "918749590bcc4d66c38f3a21bd1b1017c1819048ffc29e97",
+            "k": "d4d3f9319ef50bfbd0981eee2784394f613cf15b7d0ddd85"
+        },
+        {
+            "operation": "SIGN",
+            "expected": "OK",
+            "curve": "secp192r1",
+            "da": "a18d8e411b209b8f3cc01714667cd1497e7da7100337d61c",
+            "digest": "db72ce6fea09d442b4f31535df0a97f6c21d42be23e48b6bd088018cce75c3ddbcd8f2e6f2c431833980f77858be082b",
+            "r": "44cef0adc002553b53febf6788bc83003d5974370be027ee",
+            "s": "f1d02e06f4ce1bab2eb3184f91eca64b43848a9f6916f6a0",
+            "k": "176ce3f90cf1af428e1f580e503744b1f1f6fe31dd4898c7"
+        },
+        {
+            "operation": "SIGN",
+            "expected": "OK",
+            "curve": "secp192r1",
+            "da": "72960d7813e0636963f5969bb13c30adb982ed191eb3ce44",
+            "digest": "a6442404392a831b481845c49d6009957ebd611bd366f4dd15f7578daef21678628713b0970e59a4033ac19ab12de512",
+            "r": "9c963ca740b00b4f6d40521c956fcd872cace28f81da6cd9",
+            "s": "ecd9090deeb3099f37d408e08d361420b721868b5f34ad37",
+            "k": "835fe1b41350e7cdd7b0c4d36c13eddeefa40ca097cb80c1"
+        },
+        {
+            "operation": "SIGN",
+            "expected": "OK",
+            "curve": "secp192r1",
+            "da": "4e0db57a367e84d0680769ca5fc73ea9d69c21fca0da0ad5",
+            "digest": "22a634e0114561e05c6e333e5bab22fbfe77e1691305fceae6697278a665447c456cea6f3178d9b86533e8e2597c019c",
+            "r": "1deedf28775a579bece291f8894c24fa66011b32d2c9a8ea",
+            "s": "8bc04d56c8ca6bc289bfa098df6bf89df7ba8424b6aba534",
+            "k": "779745c63b4fc569cd607095ff0699e1479da244f6804d2b"
+        },
+        {
+            "operation": "SIGN",
+            "expected": "OK",
+            "curve": "secp192r1",
+            "da": "86f4ef5f6c2024d19e5d034dbe1fff6c768a8067792ae6f6",
+            "digest": "a168c68532a902215d7b3551bb1c39cf79df84d6bdc469b833bf72d4803d25d7abc9b2f108522909aff873c9ea7ffc2a",
+            "r": "d84ec28a2ff10860ccc75931ee956cd22622fdc50ed34e8c",
+            "s": "c5ea1b58c9a3283d972776e4d3f48220591269236ba02ebc",
+            "k": "70d304d96c4f5a481c218a9a3ec3423460aa0c83b64152d3"
+        },
+        {
+            "operation": "SIGN",
+            "expected": "OK",
+            "curve": "secp192r1",
+            "da": "1fce69576650c78c201e4e48f1e15bd333b68cc6972328a9",
+            "digest": "341be8648c712129f15c4c9e88640d5d8ed44c944ffa6a503d6f6f558d3850a2a809eaf927b7d2ee0a30298f178f8776",
+            "r": "4f6b4c19490ed3d72e54c24cf9efb645b82ce21d61def18e",
+            "s": "76cde6053f4723b99527a01708c038c3a3b5caee2a7c756c",
+            "k": "81408fb228270b170c866a72795da8ff13555dc52ff65687"
+        },
+        {
+            "operation": "SIGN",
+            "expected": "OK",
+            "curve": "secp192r1",
+            "da": "348bbab2935f7745f890bf0399c033e5a5fe2d1b66bc8498",
+            "digest": "208e506d08076dd9c621b53ee4a5bdfab7e21d80827e26de4df5e8f02553584cceb34884e6f7365402b958f30fe9226c",
+            "r": "a757cffa104167300bd9b80226736b83cb0620df901bc8aa",
+            "s": "4ab8217bf0af75070dac4036b6183361a49dbfe73b760644",
+            "k": "cbe863414977a404476bd0b4d3cc60306768d26fe075e586"
+        },
+        {
+            "operation": "SIGN",
+            "expected": "OK",
+            "curve": "secp192r1",
+            "da": "87eb3ad372d7c80580c8f6050b6497750e9b20bf5ff22bb0",
+            "digest": "5a7e8804c38ebce20c0e9692fee8a72bb2f789491ff09e3e44fcdb32d32b2b94f489f952e15ef6fa435bcf8fc4608635",
+            "r": "302fb7224f124f47096f7e088e83dca62f670ac2560c5af9",
+            "s": "47b4492ac5d96725d15b844e9470e158225c688e7df78c90",
+            "k": "690379e379c133179a99c87d97bb99a8c398041fdf713ce4"
+        },
+        {
+            "operation": "SIGN",
+            "expected": "OK",
+            "curve": "secp192r1",
+            "da": "4aa9e3a89bbc49d27a0eec822ed8f8c032b2e46ed97dd5f0",
+            "digest": "567706c20e0c6a7ecf740685e619d4bb3bc846c0dd83c88f33010e13512bb8a966f11ec09cf49ac7421925f3afcd11c6",
+            "r": "9fd42064f8a7c3e882fa71277a2c52fa9d7034ab43204783",
+            "s": "4b8e3c3f32425ffa37cac0a4d974ecd572e016a6b433f9c0",
+            "k": "340fcdb7fc08b54e0e68f4cdcf0c50a3a06e1fa9d95e7a10"
+        },
+        {
+            "operation": "SIGN",
+            "expected": "OK",
+            "curve": "secp192r1",
+            "da": "71c696cfe1aa627b5a017854370bccb9e78291b7fb4b7d4b",
+            "digest": "fe6f39f62f92c9920acf97b2b0e4224b119eb21b456035e809759d9d5b23baee72353e3d05462e618e6ef95e95203678",
+            "r": "f72ca91a55ddb4e23ed456c7addf7bf7b28bfe04d553ee7d",
+            "s": "033fee0329a187daa818478cd2bec423b53400b7a88fac64",
+            "k": "8e8879f9e26ae71cb5ec62868903bb457f3ea5a34b3e5706"
+        },
+        {
+            "operation": "SIGN",
+            "expected": "OK",
+            "curve": "secp192r1",
+            "da": "841f09cea9600fe90ccf622c09d816fc3edff7a58c19679f",
+            "digest": "3e4996a676763189c659e9d8007dd4e1dafe65f00234d393add5f3a11848545f6aecd9f69d9df75db473750e5686453e",
+            "r": "55f236716dd650119fd95e8cff232a213922e990a038af76",
+            "s": "fa0d1ecd72685958fb9c1270f9f61a8eeb16ec31edc03cbd",
+            "k": "0ae90f0f8e2065d34e0b007e05f30b4b5316cfedb6f3452c"
+        },
+        {
+            "operation": "SIGN",
+            "expected": "OK",
+            "curve": "secp192r1",
+            "da": "bc66fa4faf6d77f488bd38f07630832de202fd894c2707e6",
+            "digest": "92e4930e5131f9f8784e2eb43eb0fbe1d7f837b7ad2e6a892d0d583061277efc6b14cc152d482b6ec7ec96af0d0dd3abcaa6dc16baeb8cb32bd66956f8b0abc4",
+            "r": "e387f27603997f24078474f50fc6798dd9c3d1c99dba9a29",
+            "s": "3e533059a1441ea6fe004d5a07bbceeacb377323c059bc55",
+            "k": "5b797b7e76dd3c53c19c6088fa6378ce22eab4f7bb47e8d1"
+        },
+        {
+            "operation": "SIGN",
+            "expected": "OK",
+            "curve": "secp192r1",
+            "da": "34b09ded432fc0c8dd028577ba7d8331b07500ee1ce86dc9",
+            "digest": "f1045f1b23bad6de5db945e394180ea71aa6b44ddccefe8f150e5cdb55189f2a1db28ab219e37b411f4327d29e90ab50565e568877696588208ca0efbfc77cbf",
+            "r": "1237ddb252372b5b7e8ae1507f386d993785b66443dd3a84",
+            "s": "cbb03adb9aa834586712af150ff5bbf9280169f98214c97b",
+            "k": "75e6880a393926e6802f9a7ba239059ec8bf48aff32211a7"
+        },
+        {
+            "operation": "SIGN",
+            "expected": "OK",
+            "curve": "secp192r1",
+            "da": "11fb19e5f12be7bcf4fb8998f1b312159d211dcc31778eda",
+            "digest": "ffb469bb70584d4813d5b2c100d0d9602e4e6c01776748c1741d2c46d4fa676790ae14e0d250d96c40100b022e0a76b9d073a33703681e87ca6e94d3c9f38cd3",
+            "r": "ba597035b228dc00cf7cab2903b4f96a06a4aa21c37ccbde",
+            "s": "f1cd0f798ba9dd2e42d9163849999e7f1cd8cf81f318c081",
+            "k": "2cd4c96ec2170edb0a89aaf8cd343c5d349e9d347ceee3f0"
+        },
+        {
+            "operation": "SIGN",
+            "expected": "OK",
+            "curve": "secp192r1",
+            "da": "86c2a6e7cd0084180ec66d9072cb6cd24e20362aad0d52cf",
+            "digest": "a249e5aeeb1d8d5d1d0e944c8e4bb0b766db86e6e5b45c64902f7678fc410522ce26da62b6db5763ae152e96242de9df180a06edde86a9cb9e8d21b39baedd05",
+            "r": "c1a5c62afadd91e6ddef04c153afa00de8146786dcc8379f",
+            "s": "a45820544399a9159835a0c6a870212f62fa2c67638db37e",
+            "k": "17d0e47e7612777d898a3c483e0211a73ed108cba3c4d72a"
+        },
+        {
+            "operation": "SIGN",
+            "expected": "OK",
+            "curve": "secp192r1",
+            "da": "5c0379860964428bf08c4f90e6d082fb9a6ad4766120318e",
+            "digest": "ffcf1d5140cfed7217e7661d3849141c81301263358c4ad03a22dbb31b0c1219ed0c6ffa0092b1994460f0f6515d9f78616c9b0550cdc1cbad0b161e0a2a2a0a",
+            "r": "d54dd24ce915d4c5766966717a00aab53f8f34e0931e389a",
+            "s": "4e56a820b0c39ae26fdaff0fae2332c0c836fcb81d8c39e1",
+            "k": "03b573985e79b06a4e52c7f402c3b145e1e0556b6112767c"
+        },
+        {
+            "operation": "SIGN",
+            "expected": "OK",
+            "curve": "secp192r1",
+            "da": "5b4ebdc78ac4553131bc02b58837c0b17150915cdc1d9640",
+            "digest": "5eaa973d13363668001cab41cfb5a39959d44dc58e0447e2b57fec085ffed2ac40fe76923a1ed75417fa89f4d4cb5fa8c3096a0c148132d849454ea26f3c41e1",
+            "r": "424d34f84b44c251626cb11a9d1aff7764dbc16969fc57e4",
+            "s": "d38fd8bab77a403cdc20d9e6c7ecaaaf9f4716467595d3ae",
+            "k": "65a216d95f53cf58af0e020cd57e8901b15babf82853d3a1"
+        },
+        {
+            "operation": "SIGN",
+            "expected": "OK",
+            "curve": "secp192r1",
+            "da": "b59a77b64bc95c9f65f2fd9bf71c5f59709618ce0b184c64",
+            "digest": "7fb55cf20ca2cffad65e4c47e06bae7bdb3bdf3c8dc7fd9c42ac3a85c7c6ced48700f23bc9ec0553e1b075ae2912a65b1b5f51d6ea74d2bf433761f4c9eedb8b",
+            "r": "41f1f36158b7e3cd0c79193bc59e85825a79afd0e3f024dc",
+            "s": "5043ff9ea5d511fd4058d7a3135277a2b7123ee6b2fb5206",
+            "k": "d91f83ca36f5028fa6335762f1a717e998123d073b7f4066"
+        },
+        {
+            "operation": "SIGN",
+            "expected": "OK",
+            "curve": "secp192r1",
+            "da": "4d0bd5d83b8e709c52acb05b18e81654d25d8d9d6afe0d54",
+            "digest": "cb230d4b3348656a242404e77e3b848b996f462a3787a16de7b46ea111ec90a7dba909554bcdd67cd40c7dda0c561e7a7f190b698f7f064eb13cffe7d522d791",
+            "r": "a27dcd3bce24b4fe6d115d47566d116c77a334b432183d9b",
+            "s": "54f6333cc94223a1a4792d2c3e152df9e083760797a323d6",
+            "k": "795109ccea0960d8b07813ec0072df66b1a041917aae7821"
+        },
+        {
+            "operation": "SIGN",
+            "expected": "OK",
+            "curve": "secp192r1",
+            "da": "5eab2654665fc7e54fe8d7ad53f53afb33e44d6dd922ad64",
+            "digest": "58a124a9c15038af04708ee4888702e857524aa2c33230bff1b894eef91af1a83de1e54f41d15b74d62764eaf51f202401386616a594daf12fd39fb1bf09b4e3",
+            "r": "feef1b1c5499ba86b107512b486702ff4ef2c192ced500c6",
+            "s": "06dac0429a89609f1b7f1c3188c471a51842282845e4812a",
+            "k": "ff5c9a46a3d3320ce9112f63776841867fd41836800cf2b9"
+        },
+        {
+            "operation": "SIGN",
+            "expected": "OK",
+            "curve": "secp192r1",
+            "da": "7207ab6ec6007f7aab13f534400c0552dc5181dc1cb237c9",
+            "digest": "65e5a926aa0ef961b8021432dfb33b9e9079fc685c1230e7ac05fb621ac5520e1cfbe668b5d12b8527f75ee30c6b61960826fb54b9dabb8ee571b3a93ec73eba",
+            "r": "f48e46e735587bfb8ab35dc9a7600b36af5f5c4b0f7ed7ef",
+            "s": "d8d817e77b0faa6c8c171e2e4973af71218bfbbfb7358af1",
+            "k": "9b0cba9bc3b0bcbbaa541696841f8c513b43d5f2864baf9c"
+        },
+        {
+            "operation": "SIGN",
+            "expected": "OK",
+            "curve": "secp224r1",
+            "da": "97c4b796e1639dd1035b708fc00dc7ba1682cec44a1002a1a820619f",
+            "digest": "b9a3b86db0ba99fdc6d2946bfebe9ce83f1074fc",
+            "r": "147b33758321e722a0360a4719738af848449e2c1d08defebc1671a7",
+            "s": "24fc7ed7f1352ca3872aa0916191289e2e04d454935d50fe6af3ad5b",
+            "k": "ec2c2faa14bee0169b2fefdd41bb3e4c39c7ac52bccfbc3091084f0c"
+        },
+        {
+            "operation": "SIGN",
+            "expected": "OK",
+            "curve": "secp224r1",
+            "da": "e6f0a6ab81b7bd50dc5581b03d43308fb28356408392e29a5321ca7f",
+            "digest": "6cae5f54a0c89f810b57cfed811b44a58327ce35",
+            "r": "8c0e764cffd1845b37ad0eb3337e06bee7265c298056d9009845a301",
+            "s": "84fa1e38c2911b575f33916bcbac7f63dd219ce59a31674369316fbe",
+            "k": "6b8c3a59ff56793cf3fc434abd01c7eb91cebbb01dd32f484b7deaf1"
+        },
+        {
+            "operation": "SIGN",
+            "expected": "OK",
+            "curve": "secp224r1",
+            "da": "3ad83662320c54cebad24be5de2ecbcbe30c2b69aa639ebe44a23654",
+            "digest": "c8e624f1208f18b32aca2bf690eb7f2beb7daed2",
+            "r": "5e034661375dc3cab74000c0589f759e1dda76756f718d47c3f026d8",
+            "s": "35cc2bad11d1bd6a94717add49e42064bc0b392ee9d030f2d03d3b7b",
+            "k": "ad0ced62c01ca30b93432c142cc9d2f53ee2da76c2123c90f7ff1612"
+        },
+        {
+            "operation": "SIGN",
+            "expected": "OK",
+            "curve": "secp224r1",
+            "da": "9ac287e839788adac320d3157d36ed3f41e558381573a14d49afb201",
+            "digest": "68774a6b200fb87ced7cdc771b7b6dd30ebbce8a",
+            "r": "c3a7a23bde22c267e452dca6af88d9cbff80e332859149d48af47807",
+            "s": "79f1b5cbd6a145f6eb4582d303ee35d3ea7e87d8b64e5fd0f8a23bf0",
+            "k": "2ff3761eb86814c4e761cd4db17369b6ab1756ca15a87eef6c18c013"
+        },
+        {
+            "operation": "SIGN",
+            "expected": "OK",
+            "curve": "secp224r1",
+            "da": "4af8ad116c393082f245904b1e062ff32a818cf0d9974ad8046b363a",
+            "digest": "01e6e57843ec4226003b9199eb2a301902af9d77",
+            "r": "342eae8c8d8bf062957be48f8792fab4cb9e654bd8592ba4ad2e98b1",
+            "s": "5bf0f7ecdbbbc28b18619ad2cc6bbd8c20085fd2ecce7440f362f870",
+            "k": "1152259df488702133982228bb54011fa0086a7d2b8a3cc3b617c232"
+        },
+        {
+            "operation": "SIGN",
+            "expected": "OK",
+            "curve": "secp224r1",
+            "da": "2d90465e11c6ee4104f283ff4019779c5c9d5d0665e8552c6d58eec5",
+            "digest": "c34704cefa7fc9c411140c7dceff292ed2d25dc0",
+            "r": "ca135626737544d52bb5d0722f4709633a4182205da4462c4166c54e",
+            "s": "fa85f1954fa02631223267320d572c7d6932d6ed2da26edb1e7dfc93",
+            "k": "8b3157d48a85f452703e02c1079147515a6ae139564ec46eeb9d42d4"
+        },
+        {
+            "operation": "SIGN",
+            "expected": "OK",
+            "curve": "secp224r1",
+            "da": "6ec68008dfba890356284849d5529d0a7405fb10c9338ff2092004a6",
+            "digest": "e37d3fd5f4b9b0d5cd5431c50c68a5bd67a75584",
+            "r": "b0cf97ad5a79fe55a67fb22f65c64dbce7482f6b6e138fe192d89352",
+            "s": "3b1d9236807ed766d2d776a1320b08fd8b080c2fa1b387863d2f2bf0",
+            "k": "6724264dd8c92f01fc0cba26561ab5f7dd4afd1d532c61d13da8a38b"
+        },
+        {
+            "operation": "SIGN",
+            "expected": "OK",
+            "curve": "secp224r1",
+            "da": "26b872a198bd4f39f9eff3d6038b49cf067611dc4e684ef24c1cf343",
+            "digest": "68f855cf5a96edafd60de3dd5f1a83c51d27823c",
+            "r": "3858452d69773fcca5c7bae0e678ba698c6eb90b8f34ce9922714156",
+            "s": "b764be3a2d2dd339ac20306c83302e4f803aea6d70b0a7333fbc1af3",
+            "k": "2ad9e0e87c3e206554eac70ac7afbfa7999c93b73892fe8a1174f803"
+        },
+        {
+            "operation": "SIGN",
+            "expected": "OK",
+            "curve": "secp224r1",
+            "da": "74cac3c4683b5b848832ce2c3157d1f4748ae2942a04f17e9c612956",
+            "digest": "a69040306d2dd6a3429d47bc46296d94d527231e",
+            "r": "b41b4d49107cfc8ba2c57e0fee8df879fb7708cfbc6e18d19ca5986a",
+            "s": "cb90854db55a7250b444a205d0e61386d98504222e407f4df77dd1c7",
+            "k": "174e19ac43ca1185d14cc1270bfd0f4ad99c3c54e75ed6aadc940b56"
+        },
+        {
+            "operation": "SIGN",
+            "expected": "OK",
+            "curve": "secp224r1",
+            "da": "c6eb83bf50449807dd1b12946b4bb29aba4ccfd1fe9ef0203fd3440f",
+            "digest": "2e1537743207b9c1cfc076ead819e4db1a8b1cfe",
+            "r": "e4fb3762017cc4a9a5865b65d32ba3c4244203d66aabde8b70ec554c",
+            "s": "fbf058a0a4a3f353fe8a47d87bda4eba032d8d858aa2810852a5d3c3",
+            "k": "fc8909a9538102c552a310455e1d42300b2b5df5352da8ba963ab4f6"
+        },
+        {
+            "operation": "SIGN",
+            "expected": "OK",
+            "curve": "secp224r1",
+            "da": "16797b5c0c7ed5461e2ff1b88e6eafa03c0f46bf072000dfc830d615",
+            "digest": "07eb2a50bf70eee87467600614a490e7600437d077ec651a27e65e67",
+            "r": "2fc2cff8cdd4866b1d74e45b07d333af46b7af0888049d0fdbc7b0d6",
+            "s": "8d9cc4c8ea93e0fd9d6431b9a1fd99b88f281793396321b11dac41eb",
+            "k": "d9a5a7328117f48b4b8dd8c17dae722e756b3ff64bd29a527137eec0"
+        },
+        {
+            "operation": "SIGN",
+            "expected": "OK",
+            "curve": "secp224r1",
+            "da": "cf020a1ff36c28511191482ed1e5259c60d383606c581948c3fbe2c5",
+            "digest": "bde0fbb390fb05d0b75df5bd0d0a4ea29516125f19830e3b0c93b641",
+            "r": "45145f06b566ec9fd0fee1b6c6551a4535c7a3bbfc0fede45f4f5038",
+            "s": "7302dff12545b069cf27df49b26e4781270585463656f2834917c3ca",
+            "k": "c780d047454824af98677cf310117e5f9e99627d02414f136aed8e83"
+        },
+        {
+            "operation": "SIGN",
+            "expected": "OK",
+            "curve": "secp224r1",
+            "da": "dde6f173fa9f307d206ce46b4f02851ebce9638a989330249fd30b73",
+            "digest": "c2c03fe07e10538f6a38d5831b5dda9ce7478b3ed31323d60617dc95",
+            "r": "41f8e2b1ae5add7c24da8725a067585a3ad6d5a9ed9580beb226f23a",
+            "s": "a5d71bff02dce997305dd337128046f36714398f4ef6647599712fae",
+            "k": "6629366a156840477df4875cfba4f8faa809e394893e1f5525326d07"
+        },
+        {
+            "operation": "SIGN",
+            "expected": "OK",
+            "curve": "secp224r1",
+            "da": "aeee9071248f077590ac647794b678ad371f8e0f1e14e9fbff49671e",
+            "digest": "5d52747226f37a5afcd94d1b95867c0111bcb34402dad12bee76c1b7",
+            "r": "2258184ef9f0fa698735379972ce9adf034af76017668bfcdab978de",
+            "s": "866fb8e505dea6c909c2c9143ec869d1bac2282cf12366130ff2146c",
+            "k": "1d35d027cd5a569e25c5768c48ed0c2b127c0f99cb4e52ea094fe689"
+        },
+        {
+            "operation": "SIGN",
+            "expected": "OK",
+            "curve": "secp224r1",
+            "da": "29c204b2954e1406a015020f9d6b3d7c00658298feb2d17440b2c1a4",
+            "digest": "a1ab56bd011b7e6c7e066f25333d08cf81ac0d9c1abfa09f004ab52f",
+            "r": "86622c376d326cdf679bcabf8eb034bf49f0c188f3fc3afd0006325d",
+            "s": "26613d3b33c70e635d7a998f254a5b15d2a3642bf321e8cff08f1e84",
+            "k": "39547c10bb947d69f6c3af701f2528e011a1e80a6d04cc5a37466c02"
+        },
+        {
+            "operation": "SIGN",
+            "expected": "OK",
+            "curve": "secp224r1",
+            "da": "8986a97b24be042a1547642f19678de4e281a68f1e794e343dabb131",
+            "digest": "8ef4d8a368fad480bac518d625e97206adcafa87c52aef3d179cbfa9",
+            "r": "57afda5139b180de96373c3d649700682e37efd56ae182335f081013",
+            "s": "eb6cd58650cfb26dfdf21de32fa17464a6efc46830eedc16977342e6",
+            "k": "509712f9c0f3370f6a09154159975945f0107dd1cee7327c68eaa90b"
+        },
+        {
+            "operation": "SIGN",
+            "expected": "OK",
+            "curve": "secp224r1",
+            "da": "d9aa95e14cb34980cfddadddfa92bde1310acaff249f73ff5b09a974",
+            "digest": "28fabbac167f3d6a20c2f5a4bcee527c96be04bdd2c596f09d8fbab7",
+            "r": "09bbdd003532d025d7c3204c00747cd52ecdfbc7ce3dde8ffbea23e1",
+            "s": "1e745e80948779a5cc8dc5cb193beebb550ec9c2647f4948bf58ba7d",
+            "k": "1f1739af68a3cee7c5f09e9e09d6485d9cd64cc4085bc2bc89795aaf"
+        },
+        {
+            "operation": "SIGN",
+            "expected": "OK",
+            "curve": "secp224r1",
+            "da": "380fb6154ad3d2e755a17df1f047f84712d4ec9e47d34d4054ea29a8",
+            "digest": "50dd74b5af40978e809cee3eb41195402ebb5056e4437f753f9a9d0d",
+            "r": "ff6d52a09ca4c3b82da0440864d6717e1be0b50b6dcf5e1d74c0ff56",
+            "s": "09490be77bc834c1efaa23410dcbf800e6fae40d62a737214c5a4418",
+            "k": "14dbdffa326ba2f3d64f79ff966d9ee6c1aba0d51e9a8e59f5686dc1"
+        },
+        {
+            "operation": "SIGN",
+            "expected": "OK",
+            "curve": "secp224r1",
+            "da": "6b98ec50d6b7f7ebc3a2183ff9388f75e924243827ddded8721186e2",
+            "digest": "9fee01807ab6c43a794abf6dcd6118915252ca7d3a31a1ff96b88a8d",
+            "r": "70ccc0824542e296d17a79320d422f1edcf9253840dafe4427033f40",
+            "s": "e3823699c355b61ab1894be3371765fae2b720405a7ce5e790ca8c00",
+            "k": "ab3a41fedc77d1f96f3103cc7dce215bf45054a755cf101735fef503"
+        },
+        {
+            "operation": "SIGN",
+            "expected": "OK",
+            "curve": "secp224r1",
+            "da": "8dda0ef4170bf73077d685e7709f6f747ced08eb4cde98ef06ab7bd7",
+            "digest": "c349032f84384b913bd5d19b9211ddce221d66a45e8a051878254117",
+            "r": "eef9e8428105704133e0f19636c89e570485e577786df2b09f99602a",
+            "s": "8c01f0162891e4b9536243cb86a6e5c177323cca09777366caf2693c",
+            "k": "9ef6ebd178a76402968bc8ec8b257174a04fb5e2d65c1ab34ab039b9"
+        },
+        {
+            "operation": "SIGN",
+            "expected": "OK",
+            "curve": "secp224r1",
+            "da": "888fc992893bdd8aa02c80768832605d020b81ae0b25474154ec89aa",
+            "digest": "00c6fc53c1986d19a8a8b580ee553dc1240745d760647d1c0adf442c133c7f56",
+            "r": "0909c9b9cae8d2790e29db6afdb45c04f5b072c4c20410c7dc9b6772",
+            "s": "298f4fcae1fe271da1e0345d11d07a1fca43f58af4c113b909eedea0",
+            "k": "06f7a56007825433c4c61153df1a135eee2f38ec687b492ed40d9c90"
+        },
+        {
+            "operation": "SIGN",
+            "expected": "OK",
+            "curve": "secp224r1",
+            "da": "5b5a3e186e7d5b9b0fbdfc74a05e0a3d85dc4be4c87269190c839972",
+            "digest": "fb5dd3b8d280fe7c4838f01b2a5c28493ed3084f46b40642600ba39e43fbff7b",
+            "r": "f12c9985d454ffbc899ebbbb6cf43e3debcac7f19029f8f2f35cce31",
+            "s": "12fcb848adbd8b1b4c72b2b54a04d936e4a5f480ae2a3ea2e3c1baae",
+            "k": "5b6f7eca2bcc5899fce41b8169d48cd57cf0c4a1b66a30a150072676"
+        },
+        {
+            "operation": "SIGN",
+            "expected": "OK",
+            "curve": "secp224r1",
+            "da": "f60b3a4d4e31c7005a3d2d0f91cb096d016a8ddb5ab10ecb2a549170",
+            "digest": "f4083aebe08c9bdb8c08ff844ffc207f80fa4406fb73bdbc1c6020f71281bdae",
+            "r": "bf6c6daa89b21211ea2c9f45192d91603378d46b1a5057962dafaf12",
+            "s": "cb6b237950e0f0369323055cd1f643528c7a64616f75b11c4ddd63c7",
+            "k": "c31150420dfb38ba8347e29add189ec3e38c14b0c541497fb90bf395"
+        },
+        {
+            "operation": "SIGN",
+            "expected": "OK",
+            "curve": "secp224r1",
+            "da": "c8fc474d3b1cba5981348de5aef0839e376f9f18e7588f1eed7c8c85",
+            "digest": "cb017b280093879c4b114b52ea670f14e97b661074abccc8539a23280fe136b4",
+            "r": "7b7beaf9f696ca1a8051527478c4c075ab45aa4768937886dbf38618",
+            "s": "93d4cf110a37c5a6f15c4e6024822118539e860dee2f60b8c3f462f6",
+            "k": "5e5405ae9ab6164bb476c1bb021ec78480e0488736e4f8222920fbd9"
+        },
+        {
+            "operation": "SIGN",
+            "expected": "OK",
+            "curve": "secp224r1",
+            "da": "04ef5d2a45341e2ace9af8a6ebd25f6cde45453f55b7a724eb6c21f6",
+            "digest": "5f1d77f456d7ed30acad33795b50733d54226e57df4281a43d3821d0762f12fe",
+            "r": "2fd7fcbb7832c97ce325301dd338b279a9e28b8933284d49c6eabcf6",
+            "s": "550b2f1efc312805a6ed8f252e692d8ee19eaa5bcd5d0cda63a1a3f0",
+            "k": "ec60ea6f3d6b74d102e5574182566b7e79a69699a307fee70a2d0d22"
+        },
+        {
+            "operation": "SIGN",
+            "expected": "OK",
+            "curve": "secp224r1",
+            "da": "35d4bbe77d149812339e85c79483cb270bdac56bbf30b5ef3d1f4d39",
+            "digest": "cce0671ca07521fdaa81eced1dc37282bd9a6dbbaeb8cd00d13d4cf75cef044c",
+            "r": "26bb1b92b0f01e94eba5fa429271371db527ce857abba13bd1103f64",
+            "s": "836aba9c63e1252c2b2d72a21e6a41b82241ebe32647e7f814652bcb",
+            "k": "751869c1d0e79eb30aae8fbfb6d97bfa332123fd6b6c72c9cd3c1796"
+        },
+        {
+            "operation": "SIGN",
+            "expected": "OK",
+            "curve": "secp224r1",
+            "da": "2c291a393281b75264c9b8817af684fa86a1cdc900822f74039dc5d6",
+            "digest": "4ee903b828f54f35adab0bfec06eb064abde530d8ed0384730aa23e8e9664801",
+            "r": "00e300c1ef4a8c4ca5da6413856f8981db49de29bdf03f32ffc3ceab",
+            "s": "f250f18a51ba5f63e1584097841099fa6ae4e98ee458c061d1d5aed7",
+            "k": "e2a860416229dfd3f5a5cc92344ca015093a543943a0d8f73bf2b2fd"
+        },
+        {
+            "operation": "SIGN",
+            "expected": "OK",
+            "curve": "secp224r1",
+            "da": "831ea25dbeda33d272a1382c5def0e83929170ab06a629eed6ee244b",
+            "digest": "215e9817eccaa125e0c053fed373f4605de292d27a692bd4f744e63215fd8705",
+            "r": "ff1460946e06fb6f5d35e8d2625ca70ffb9b45308e3fabf6ad8351b1",
+            "s": "6029aa3990918e8cb8a388d53b0772e5cdfff49c3405fe0d3a95933a",
+            "k": "6be6dd9f6a083915ccba54626caf12d246d3aece0a7eda7d8d85599c"
+        },
+        {
+            "operation": "SIGN",
+            "expected": "OK",
+            "curve": "secp224r1",
+            "da": "70f74c7324ef137318b610ead8ddc5b964e0eed3750b20612fc2e67b",
+            "digest": "6571a344765c0512d3911a7724509b649a6ce4106823be76726f117f109ec0fa",
+            "r": "3b18736fa11d04e27e2614cda03a63ec11a180f357b0b3192920d09c",
+            "s": "2f0f3dbd570727b14fbb29155538e62c930dd51c4035275c1365dc60",
+            "k": "8e984864f86f7a2a73f3edda17dbccd13fac8fa4b872814abf223b1b"
+        },
+        {
+            "operation": "SIGN",
+            "expected": "OK",
+            "curve": "secp224r1",
+            "da": "026be5789886d25039c11d7d58a11a6e1d52cb1d5657561f2165b8a8",
+            "digest": "95914b17ff0362e12305d71657bbc9d919ae4aa746bf4ebe95b2d2fe7ca3f022",
+            "r": "3a6b633f96f3d0b6d54f7fb29ac33709e4f0dd8fa0e51606ed9765ca",
+            "s": "63e8c119dfa51784decd864f6911f2210a80f8f02d472d88df10d119",
+            "k": "0128b8e3f50731eb5fcc223517fc0cf6b96cd1d2807eb4524bc46f77"
+        },
+        {
+            "operation": "SIGN",
+            "expected": "OK",
+            "curve": "secp224r1",
+            "da": "62c572ee0d6f81b27e591d788bfc2f42b5105d2663078dfb58069ebd",
+            "digest": "1a9fc0195bf0f53cebba8aa7ccc8567c680d75187392d6d8201854ec4a6e6abd349037d831809e9f3add2fc09d27e4a4",
+            "r": "aac0ea27e129f544abcc77f110e70bbdd5aa3e425dc39d5e8887025d",
+            "s": "10e5dd06aee6b8419a04aa33d9d5678b0039c3acc3c4b61fe106bfdc",
+            "k": "0f0bb1e428bcdebf4dc62a5278068efc0f8ce75f89e89b3630f102b2"
+        },
+        {
+            "operation": "SIGN",
+            "expected": "OK",
+            "curve": "secp224r1",
+            "da": "e2f86bf73ba9336fa023343060f038e9ad41e5fe868e9f80574619a3",
+            "digest": "0f236d9a43edd55dacf5ff9f93ee805395e130ca2c8ad2eaea0fdd68e2ee2fadae9f41aa46f881485db208bd9cdc463b",
+            "r": "535147c265af138eec50c7fb570bcc8d2e6f675597b0fcc034e536bc",
+            "s": "743812c188a1dddf9fb34b90738f8b2e58760d6cd20ccceb1bb9c516",
+            "k": "35724ac043e3b44b73b5a7919cf675190306d26aa67c27c28c873534"
+        },
+        {
+            "operation": "SIGN",
+            "expected": "OK",
+            "curve": "secp224r1",
+            "da": "b0a203438e2586d7575bc417a4a798e47abc22aa3955b58fc2789f17",
+            "digest": "525b6241eb2a6dd00b55b172708aafd0775e959b7c601903f44ffcfc17ee979f34f204680f8a71044a6d7e3679a50576",
+            "r": "1b5a964c8b1fc634c6e2b82322499df1d7f0c12a4d2a77723c816ab8",
+            "s": "cf54599a36ca064fae0aa936de5266f87704409d22a15d28c01b7f2a",
+            "k": "408e9c8b1f33136d6ddb93ff3a498bc09d4eee99bf69cdd5af0aa5a2"
+        },
+        {
+            "operation": "SIGN",
+            "expected": "OK",
+            "curve": "secp224r1",
+            "da": "efcfa50fad6fb2065f9a55f28c0c42fa24c809ccb19b6fc6d8ffb085",
+            "digest": "88c4b7ca396f17e82c92596c301e41d7f01810bfeb33173cc0d1fedf3fd5ace6892ba9a788de13417f0ef00ff87344fb",
+            "r": "b37caaa71103752ac559f9eb4943324409ebfa8b585f684dcaa5c411",
+            "s": "7c28e7619e2944ab4b7be022878c8052ebdf2cae5dff4f976c49686a",
+            "k": "d1eea821f286eae6ebc1f61b08f9ad4323a3787e94af4c32cd31351b"
+        },
+        {
+            "operation": "SIGN",
+            "expected": "OK",
+            "curve": "secp224r1",
+            "da": "61a17816937987764cdc064dc7b5b4f5b16db1023acdfe25902957dd",
+            "digest": "3babfaba30f3300171e6adcf4f62a12287031ac40078c96b2c2c063849e9a42ef3be953dc11fb319c18bf22fe511bf37",
+            "r": "b0f5635d8bc9c53a1d54a3ec63de59ed66e6b2358d4ab79755414326",
+            "s": "67c68fe265c7e5aba4232deeafb88545a2aa266fb9f2c2bb3f3ae8d2",
+            "k": "44b1fdec2629f9075f89c134ac28ff19bfddaa9db02a5d7f853582b4"
+        },
+        {
+            "operation": "SIGN",
+            "expected": "OK",
+            "curve": "secp224r1",
+            "da": "79d5367314ec664aa0f6ca36f95549502a05bf8400bf532d669fab8d",
+            "digest": "9f36da1a5653469a52f85e7e3b2a21ac3497cc00ff37e03235bbdf951695f182312ad5c8fb8a5fbd0295dc8c5acda068",
+            "r": "8e0ac63903f4921755430572c3f08bc272790639bdf1009fe2a9a714",
+            "s": "6278c841a2d0a270791fe54b36c49d426d67907aa4e4f59c8638ad97",
+            "k": "da529c52f5cc1f435d873109cd991d6cd7e1631d9ff1dd9521dd5db6"
+        },
+        {
+            "operation": "SIGN",
+            "expected": "OK",
+            "curve": "secp224r1",
+            "da": "1320eedad4745121793a7eaf732b0b4498f7cb456cac8cf45a1f66f0",
+            "digest": "12532cbcfd4e80373bc235ac0bfa2a70b1044786d29f9384d555030f5df3cb5ab9f973df638b6835cb756792d1fe1a4e",
+            "r": "80199485a3a96447b39f7679cd47412a78675ba17dcbd10465dc5b48",
+            "s": "a251fd9f136a3cb0dd0bc80659ae032e4a761ba7045da0034553fb8c",
+            "k": "66ed8d8934633f4125f593cf1b1d3745c4db1f15dde60cf46ca1c7f2"
+        },
+        {
+            "operation": "SIGN",
+            "expected": "OK",
+            "curve": "secp224r1",
+            "da": "e18821329447d3f65ba7279e96bd4624ffa1b32b90f6e8331b1e876d",
+            "digest": "89030408e06cc06d3dbfb51f6725c710a2bc9db9e07ff1ec8a32a827d93d2dc951834cdb01a7afa1fe4cf4e9186ee424",
+            "r": "d478b68733d8ad44be46766e7b66af782fbdc7ff7ed0b191176da98a",
+            "s": "5eae9160ccf71fd1d359d89cecce72ef8afaeee2365f6ba828aa450a",
+            "k": "a4c1eb402a2fb3af26e0e14a3d2fc8ed3bc1a8b2475270356a79fdd3"
+        },
+        {
+            "operation": "SIGN",
+            "expected": "OK",
+            "curve": "secp224r1",
+            "da": "f73e030d5a696b358986d3efaca121cf71f775f8835a21e6135145d7",
+            "digest": "eda24262a9e64be110a6c96763e8a4b5edb38af2a084695e294593583b462c56b0db50bc014eb19278e3f3d675eb5f22",
+            "r": "f1234da71761b7a0f49e661a419d2a739bdc4544bf87690e3d2f96db",
+            "s": "096d16bf8020c3d3c233894ad8eb81206010e62c6e692a215e088fd4",
+            "k": "e3cc786c1288ea567836c51d6d69dd0cab5c015987d936ccc3a4beb3"
+        },
+        {
+            "operation": "SIGN",
+            "expected": "OK",
+            "curve": "secp224r1",
+            "da": "7a0789323f8741c157a1753ae165ecaf8e8b03a60561f8b80cee467c",
+            "digest": "983a5d16b009cc65bdf3c3badc2f21280e04f44244b70a583c2e9732534497373f51b226c3ab7bd69c6940e46bc41fa1",
+            "r": "e4a51be686a764b709da23ab48b1985e153c6ee238d945e743907afc",
+            "s": "118a8f1ffe3cd556ce6345bd1a398dd9cc3729b7fd6d8af9bfd82f40",
+            "k": "d169f04f05b60c625cda864d187938863964dab7bb3b9dfc04b05519"
+        },
+        {
+            "operation": "SIGN",
+            "expected": "OK",
+            "curve": "secp224r1",
+            "da": "ba5374541c13597bded6880849184a593d69d3d4f0b1cb4d0919cbd6",
+            "digest": "3edbb59a32b2464291d0a96023a798c1fc6cb5ff4fcecfadcfac2be00c26fa27181aef76c96d8269aeaf2275eeacbb777abbd9571de9279edc5695a3345cad9b",
+            "r": "f83d54945997584c923c09662c34cf9ad1e987da8bfd9be600e7a098",
+            "s": "4ff2dba9dba992c98a095b1144a539310e1a570e20c88b7d0aa1955c",
+            "k": "187ed1f45c466cbafcd4b9577fb222408c011225dcccfd20f08b8d89"
+        },
+        {
+            "operation": "SIGN",
+            "expected": "OK",
+            "curve": "secp224r1",
+            "da": "1e27187134d0a63542adf4665fba22f00cfc7b0a1e02effe913ceedc",
+            "digest": "825ab979af5c263d9f074a2d771d1d1cdfa435e7938245a3c9ee30cb77ee8c1475051d2f09d7d11d920a6c754bfd253903131c491994679cafdb8cfbf32b763d",
+            "r": "58177ba46fb291490b39368774accf72736412c1fb5ee0f27b9b1e02",
+            "s": "58337d78b95a080bfcabb5809bee012501b4da84b8ef310a4628f11c",
+            "k": "34cb597deae9a3b1cada937abcd247161b19b2b336b20e2e42ae01f1"
+        },
+        {
+            "operation": "SIGN",
+            "expected": "OK",
+            "curve": "secp224r1",
+            "da": "0905b40e6c29bfcbf55e04266f68f10ca8d3905001d68bb61a27749b",
+            "digest": "d0db7c20c201cd8c63ca777293543750d7f6a9e375b056e74cfe9fb2c95b2cc9807d8a9607a5b0fad6eeda86e4f73ace139e77a5356181b8cbef3f88173253b6",
+            "r": "583af080e0ec7c1ba5a491a84889b7b7b11ccfe18927c7c219b11757",
+            "s": "b23700035349df25d839f0973bef78a7515287de6c83707907074fa6",
+            "k": "dc82840d147f893497a82f023d7d2cbf0a3a5b2ac6cc1b9b23e504be"
+        },
+        {
+            "operation": "SIGN",
+            "expected": "OK",
+            "curve": "secp224r1",
+            "da": "afbaede5d75e4f241dd5b53220f3f5b9c1aa1d5d298e2d43236452dc",
+            "digest": "37d9091eddc6fc34b45cf97140e956a42ab659f6bd442e81b57c4ecfbdab45f7380a7efdbac5400ceb1bf683194232cd086c1b4e09fc9313f1bc38af731f1a98",
+            "r": "24f3f457c7b72b7e759d5a8afbf330e31c5d8d2e36f92c0e79c5d87d",
+            "s": "36fd1193def34f12a960740fd79fb38bf2b480726ccad540eb42cdf8",
+            "k": "0fbbe7b40136c81a8fb894498d5502157a1cf5a89d0643de92cd38f6"
+        },
+        {
+            "operation": "SIGN",
+            "expected": "OK",
+            "curve": "secp224r1",
+            "da": "950b07b0c2b7539a21b5135bfede214733f2e009647d38d8b21d760c",
+            "digest": "8ddf64c9c67289a76c2f5b44a30b8365f4adf487b4edadada5749cad9e5765c57a348a750817a53e5c2ff551e003747ca1e3438b2aa1952c6876fda8fd8f4de2",
+            "r": "2685265bc878e85d10ab13293dec190881a57c4a467f8fc2170432ea",
+            "s": "80a347bb49036522369339bd6485a967cdda818915d8eb947302fcf9",
+            "k": "83e110d0d1e700d2f36543028737d2a2f1474aa3b4b28998a39e4793"
+        },
+        {
+            "operation": "SIGN",
+            "expected": "OK",
+            "curve": "secp224r1",
+            "da": "015bd9f5dfef393b431c3c7fced24385d861ccb563542574a5d2a9bc",
+            "digest": "7c22f34d5897ccdf7d807f68a7f16e3093a4413625e7853401a4e0384d26893f1997c84557515f2ea66afe7629f62415e6b98e18e97dcb4fb2dec97cf2dd68d9",
+            "r": "e12dc088d2bc032bb214c77d0e0fb749fc8e61ebe1ed72996f1084b6",
+            "s": "0ab58aa31e0bba5fbc76855e6549f1036fba0a589aeab978ab01b8fb",
+            "k": "e2374350f47c08f3c1359d4edf87e61d1ba4e7dd1540d8d9062efa79"
+        },
+        {
+            "operation": "SIGN",
+            "expected": "OK",
+            "curve": "secp224r1",
+            "da": "0a3c259df933247445acffb6d8265b601d597fb9997dc2a1eb4deef4",
+            "digest": "016d26cbcf55236c053ece58651183e4c81edd8f07749a5ba28d8d22a5d6a9c6b33810c9618bd9cf472006cfeb62842927d3fb677d82e09bb5134e470d481812",
+            "r": "653675fb993c3fa9e57b32e33029ec230b966e8077c72c1ec90ddefc",
+            "s": "792723bf87e315147cd4303de7f1dfe95cd7658ebb95c38c1a196140",
+            "k": "8bf5859665b6a23e6b05a311580f60187ba1c4ae89e44877fb48af66"
+        },
+        {
+            "operation": "SIGN",
+            "expected": "OK",
+            "curve": "secp224r1",
+            "da": "a1c8ef463f9e7e3dd63e677412f87cf9ea4ac9a6a2dae629da5b9916",
+            "digest": "47e43ab8ebe14f0394c46b55856104211b12d8f2b075f6efa1510fed823dc121cfd9198e060839ebbdf2eb994194875c342be861bf0975665aae881f28cefbc0",
+            "r": "16305a46a3f6f9e216ef8f6a6f5f0760d064a885657c864e1c1ea035",
+            "s": "58fd97050bfbca6f87e64e1458c4ad80bae26e280356da344ad3b25d",
+            "k": "82f55a25d3ed6e47c22a6eed0fa52ed0818b87d6ea7950281dfefc09"
+        },
+        {
+            "operation": "SIGN",
+            "expected": "OK",
+            "curve": "secp224r1",
+            "da": "fa511dbf6fef7e5e9c73e4555eb75d435f7884322d9faf5d78cacc0b",
+            "digest": "d86bfb4fc2ae431617d8800e44b37a5b549775c78e90eaec58b42aebafed731b3123a82fab13254783e24c28db715c53f6538a2961cc888638eab768ee6b66c0",
+            "r": "05e4909bcc172ab4140be291aad4660e375032bce2d762b6269ba764",
+            "s": "e347a1c9d3670690e1d8d1d4cd9579848f442199c10526488da5cebf",
+            "k": "a37d665fe4314aa4cd03eb8e6a1f366b43e11fdb419c96b48f787b62"
+        },
+        {
+            "operation": "SIGN",
+            "expected": "OK",
+            "curve": "secp224r1",
+            "da": "a58bd53646400a646f0e4208320dc679a9664d1c6bfb27fdc8eac7ea",
+            "digest": "e537383a08a421bf1f29e07554387bd32d685c2a5830b157df1e83c0f3c78cd11e5a5cc62830a45d7eb71920a2d13ca9cc1eec020c9db49a07d1c91433b31e2c",
+            "r": "5c0e5c6f057de1e99ef5d237a60d7a07fa9a42b120a82f573d9fb7b2",
+            "s": "2fffc0bf550bd2f650fed085a84501cacfa6a1bb984df1f9237eaa59",
+            "k": "42c5b6f87d3bb1ed74f5ee8398d8f8c61e9e50ffa7a1da12d39893f9"
+        },
+        {
+            "operation": "SIGN",
+            "expected": "OK",
+            "curve": "secp256r1",
+            "da": "be34baa8d040a3b991f9075b56ba292f755b90e4b6dc10dad36715c33cfdac25",
+            "digest": "a3f91ae21ba6b3039864472f184144c6af62cd0e",
+            "r": "2b826f5d44e2d0b6de531ad96b51e8f0c56fdfead3c236892e4d84eacfc3b75c",
+            "s": "a2248b62c03db35a7cd63e8a120a3521a89d3d2f61ff99035a2148ae32e3a248",
+            "k": "18731ef637fe84872cf89a879567946a50f327f3af3aaeb6074a86f117e332b0"
+        },
+        {
+            "operation": "SIGN",
+            "expected": "OK",
+            "curve": "secp256r1",
+            "da": "1fe33950c5f461124ae992c2bdfdf1c73b1615f571bd567e60d19aa1f48cdf42",
+            "digest": "98de785daacf01567362273f54b1a1044259a9e9",
+            "r": "e4337061373d22d10f8b96888ebba55036096a4d39ba1566127ed894a914bf91",
+            "s": "77792301bfaadc72334312a3fcaaea3bc2af5ec3065a526d04d467d07dce9851",
+            "k": "ce45eac259171cf25ddbd621195515111c7b933de3d415f2a269648fa8b803d1"
+        },
+        {
+            "operation": "SIGN",
+            "expected": "OK",
+            "curve": "secp256r1",
+            "da": "65dee450c43c222ca453b46375e63169b389b208e9c091974f258af09b8ab000",
+            "digest": "88cd3a7be8bcd49982c44ff4e04c0d033ab82e81",
+            "r": "e6aff59f9185dcb84ab2cf481388c31c5101d678370bc34e2c3adb63a7d3b899",
+            "s": "7aa151701e8479bd787171f6c0c0b070a50d03447f27745bc3a28ac3b82820da",
+            "k": "43f990dd44e86744d6e5d3107100e98a34289afd80777a18b92a40ec49b93d28"
+        },
+        {
+            "operation": "SIGN",
+            "expected": "OK",
+            "curve": "secp256r1",
+            "da": "e93ec1b3a4c69ebe0843b731625bbc020336593fb86ded4782cdfa447e49ebb3",
+            "digest": "d856d257f6161c3236357b174560bcf21a00bdfb",
+            "r": "e53cad8cf4deb3ab44b603a185f4eecd50bb19cbc3bc1e394382775ad5857aee",
+            "s": "6663df18f6c50100983c2d1b2b0b4574ff83dd5b87a7747789402a1a6ac5cb2f",
+            "k": "c2650705469748344ad9e08e290cab107581ffb17402e57514d362a5b0890235"
+        },
+        {
+            "operation": "SIGN",
+            "expected": "OK",
+            "curve": "secp256r1",
+            "da": "1cfc39b35ef4afb8e0182f6aa5da8cef0925dd829d1e43f18caabacf3e5466fa",
+            "digest": "dcf2a8d0b1b68f8eb1f45986b531a38c40cdc439",
+            "r": "e4f877e86b6da25cfdadcd1967b98954c7c4545178769c78269975ba54734ccc",
+            "s": "a8676a0bdf9fbe47f16a92bbaf75821906c74f68ffca2fdf602d7f48b4ef9e6a",
+            "k": "f35c0742dff5d901326a42ca50ac50b7c32794c7d85f48a7450da772b967b8ba"
+        },
+        {
+            "operation": "SIGN",
+            "expected": "OK",
+            "curve": "secp256r1",
+            "da": "533e7ec63dddc22071a5614409a68b3f99355de629abf2fb9dea696dd6bab1b2",
+            "digest": "99616a1cdbf320f0a1496f4067911198155f4bc6",
+            "r": "63eda6e6a7888fc4bd54242227b60520dbec520b5538e14eec2ea5ef1ce1c298",
+            "s": "f6fabd495f7191d2df06a24d53748c32e014b0e456b4406769500399ed93f881",
+            "k": "21ab69b8ff8eee106d6698cddaa58052bc23564cf8ac28570f4164470f3f9739"
+        },
+        {
+            "operation": "SIGN",
+            "expected": "OK",
+            "curve": "secp256r1",
+            "da": "9134c53bdf5a0fb7bd1d0afab6edeb0ad7270c5efc083f3256f0cb251fca3a7d",
+            "digest": "951c8c14a29ad1e56b0bcf9825bf657e81d8bf33",
+            "r": "23131427fa930631f1dad2c8f2c96222245a0f14b2704fc87986adeaa4a25dd4",
+            "s": "769745372812d2a2b7d59bafa1d1276fd63c1ccfc06cbf44f3e93015191f690e",
+            "k": "d2cfd5d47c6a3b125557d86509618859027703197bea96a483af6de4f0fbd0b2"
+        },
+        {
+            "operation": "SIGN",
+            "expected": "OK",
+            "curve": "secp256r1",
+            "da": "2c678b91bc8c8f2610439bd586b69c0549847c32ef41b2d31bab4d90362cb76a",
+            "digest": "f67c4e3e9408ece73f8d3a9084dfb8b13ff714dd",
+            "r": "a12aad3339e291c0103974af9e77713bba63413e85f05aa3230a9c2487348f69",
+            "s": "8dfaf41f619807b085453a14df195d686d3d80c97602a0770da853de155da630",
+            "k": "285493df1f126a153d9cd79eef19e31eab3d2ece9a8898b463175680e7372d8f"
+        },
+        {
+            "operation": "SIGN",
+            "expected": "OK",
+            "curve": "secp256r1",
+            "da": "1545750a9cf39b189e0fed21118c95aae771de4664552a2b36ba2cdafa072496",
+            "digest": "39ae872a437a1b0a8884eeef0ce2e5ed97530cc5",
+            "r": "ebf0cb5e43e28aa9c209ecd1b9f95528e5820305b85c73558cc4ebb43e4cb20f",
+            "s": "f75770a7cb17ff659dd241ddde8dc2a79cc6a8d89203c67cd5b8243c40877d2c",
+            "k": "d74686019626b6733960263474938404c855928a0e2b3251a1fbf6e63df00c4b"
+        },
+        {
+            "operation": "SIGN",
+            "expected": "OK",
+            "curve": "secp256r1",
+            "da": "b24cbf1f527b4f178fccab71f5397cfac08448b9466a94ea61dfa1fcd117bafc",
+            "digest": "9f39d18b504903b101042310a4f0d6aae0d33944",
+            "r": "7a896ba95a27aac2f10046f07538dbfa023b7fe6164dde5fc8d4bc7e981ad291",
+            "s": "7698349f95ddab79c9de2ff97acff63da555cd7025ebdd0a3fe8ac37bed4c77e",
+            "k": "7a4f0c2190ae1e04dc3ef9bab93a3683e9f2fddec48d93f3ca8775fc4d8943f1"
+        },
+        {
+            "operation": "SIGN",
+            "expected": "OK",
+            "curve": "secp256r1",
+            "da": "708309a7449e156b0db70e5b52e606c7e094ed676ce8953bf6c14757c826f590",
+            "digest": "5e53611194b517b0ef4f704684850dfa387f99997d586d43c9e41530",
+            "r": "4a19274429e40522234b8785dc25fc524f179dcc95ff09b3c9770fc71f54ca0d",
+            "s": "58982b79a65b7320f5b92d13bdaecdd1259e760f0f718ba933fd098f6f75d4b7",
+            "k": "58f741771620bdc428e91a32d86d230873e9140336fcfb1e122892ee1d501bdc"
+        },
+        {
+            "operation": "SIGN",
+            "expected": "OK",
+            "curve": "secp256r1",
+            "da": "90c5386100b137a75b0bb495002b28697a451add2f1f22cb65f735e8aaeace98",
+            "digest": "50be7b4f0e1fa36f06eb430ad4afe8f0cea2b97e060230f91ed1922b",
+            "r": "38b29558511061cfabdc8e5bb65ac2976d1aa2ba9a5deab8074097b2172bb9ad",
+            "s": "0de2cde610502b6e03c0b23602eafbcd3faf886c81d111d156b7aa550f5bcd51",
+            "k": "36f853b5c54b1ec61588c9c6137eb56e7a708f09c57513093e4ecf6d739900e5"
+        },
+        {
+            "operation": "SIGN",
+            "expected": "OK",
+            "curve": "secp256r1",
+            "da": "a3a43cece9c1abeff81099fb344d01f7d8df66447b95a667ee368f924bccf870",
+            "digest": "f51177ab6c34bf80ea72d687a670e4102987d1378bd9a4d973af4dad",
+            "r": "b02a440add66a9ff9c3c0e9acf1be678f6bd48a10cbdec2ad6d186ffe05f3f2a",
+            "s": "a98bea42aec56a1fcecec00a1cc69b01fcbcf5de7ac1b2f2dcc09b6db064f92b",
+            "k": "a0d9a7a245bd9b9aa86cecb89341c9de2e4f9b5d095a8150826c7ba7fb3e7df7"
+        },
+        {
+            "operation": "SIGN",
+            "expected": "OK",
+            "curve": "secp256r1",
+            "da": "7bbc8ff13f6f921f21e949b224c16b7176c5984d312b671cf6c2e4841135fc7f",
+            "digest": "03bf686dab49196f887f3a8083f1a39e26085127a9d9e6a78f22f652",
+            "r": "2e6cc883b8acc904ee9691ef4a9f1f5a9e5fbfde847cda3be833f949fb9c7182",
+            "s": "2ac48f7a930912131a8b4e3ab495307817c465d638c2a9ea5ae9e2808806e20a",
+            "k": "21c942f3b487accbf7fadc1c4b7a6c7567ce876c195022459fa1ebf6d04ffbaa"
+        },
+        {
+            "operation": "SIGN",
+            "expected": "OK",
+            "curve": "secp256r1",
+            "da": "daf5ec7a4eebc20d9485796c355b4a65ad254fe19b998d0507e91ea24135f45d",
+            "digest": "40a7ece19f7f6a6473b209a7ac9441d59b00fc94ae0ded3423427c12",
+            "r": "775e25a296bd259510ae9375f548997bec8a744900022945281dc8c4d94f2b5b",
+            "s": "d87592ceab773ae103daebbb56a04144aaccb1e14efc1024dc36c0e382df1f70",
+            "k": "343251dffa56e6a612fec7b078f9c3819eab402a72686b894a47a08fd97e6c23"
+        },
+        {
+            "operation": "SIGN",
+            "expected": "OK",
+            "curve": "secp256r1",
+            "da": "8729a8396f262dabd991aa404cc1753581cea405f0d19222a0b3f210de8ee3c5",
+            "digest": "f6c083325d6316e337c102b16bb96faa478a43b2dc0d56d51a4affed",
+            "r": "a754b42720e71925d51fcef76151405a3696cc8f9fc9ca7b46d0b16edd7fb699",
+            "s": "603924780439cc16ac4cf97c2c3065bc95353aa9179d0ab5f0322ca82f851cf2",
+            "k": "6de9e21f0b2cacc1762b3558fd44d3cf156b85dbef430dd28d59713bfb9cfa0b"
+        },
+        {
+            "operation": "SIGN",
+            "expected": "OK",
+            "curve": "secp256r1",
+            "da": "f1b62413935fc589ad2280f6892599ad994dae8ca3655ed4f7318cc89b61aa96",
+            "digest": "6890736262386d60424be27b3f95996ab696e1ddffdc4a03c256a7c0",
+            "r": "96d1c9399948254ea381631fc0f43ea808110506db8aacf081df5535ac5eb8ad",
+            "s": "73bf3691260dddd9997c97313f2a70783eacf8d15bdfb34bb13025cdfae72f70",
+            "k": "7a33eeb9f469afd55de2fb786847a1d3e7797929305c0f90d953b6f143bb8fc6"
+        },
+        {
+            "operation": "SIGN",
+            "expected": "OK",
+            "curve": "secp256r1",
+            "da": "4caaa26f93f009682bbba6db6b265aec17b7ec1542bda458e8550b9e68eed18d",
+            "digest": "e8ed2e73fe9e3c6bb087c5179bb357be4cd147bc66e70dc1fecc10fd",
+            "r": "25dd8e4086c62a40d2a310e2f90f6af5cb7e677b4dfdb4dc4e99e23ea2f0e6dc",
+            "s": "90ad62c179b0c9d61f521dde1cd762bfd224b5525c39c3706f2549313ddb4f39",
+            "k": "c0d37142dc8b0d614fad20c4d35af6eb819e259e513ddeac1e1c273e7e1dc1bb"
+        },
+        {
+            "operation": "SIGN",
+            "expected": "OK",
+            "curve": "secp256r1",
+            "da": "7af4b150bb7167cb68037f280d0823ce5320c01a92b1b56ee1b88547481b1de9",
+            "digest": "ca7e8c8c873346c85db9ac648509c8ccc9ab5651d91e35a248b951fb",
+            "r": "261a1cdb0fd93c0fb06ea6068b6b03c330a12f621a7eba76682a1d152c0e8d08",
+            "s": "7ca049bad54feee101d6db807635ffb8bdb05a38e445c8c3d65d60df143514c5",
+            "k": "98edd59fafbcaee5f64e84eb5ed59fff45d14aabada47cee2fa674377173627a"
+        },
+        {
+            "operation": "SIGN",
+            "expected": "OK",
+            "curve": "secp256r1",
+            "da": "52ad53e849e30bec0e6345c3e9d98ebc808b19496c1ef16d72ab4a00bbb8c634",
+            "digest": "3367c395a9ad7b8214c48658f2a4b377b6b0288ba272a4fbfeaa48df",
+            "r": "a18194c7ac5829afc408d78dde19542837e7be82706c3941b2d9c5e036bb51e0",
+            "s": "188ead1cdf7c1d21114ff56d0421ffd501ab978ef58337462c0fa736d86299af",
+            "k": "8650c30712fc253610884fbba4a332a4574d4b7822f7776cab1df8f5fa05442a"
+        },
+        {
+            "operation": "SIGN",
+            "expected": "OK",
+            "curve": "secp256r1",
+            "da": "519b423d715f8b581f4fa8ee59f4771a5b44c8130b4e3eacca54a56dda72b464",
+            "digest": "44acf6b7e36c1342c2c5897204fe09504e1e2efb1a900377dbc4e7a6a133ec56",
+            "r": "f3ac8061b514795b8843e3d6629527ed2afd6b1f6a555a7acabb5e6f79c8c2ac",
+            "s": "8bf77819ca05a6b2786c76262bf7371cef97b218e96f175a3ccdda2acc058903",
+            "k": "94a1bbb14b906a61a280f245f9e93c7f3b4a6247824f5d33b9670787642a68de"
+        },
+        {
+            "operation": "SIGN",
+            "expected": "OK",
+            "curve": "secp256r1",
+            "da": "0f56db78ca460b055c500064824bed999a25aaf48ebb519ac201537b85479813",
+            "digest": "9b2db89cb0e8fa3cc7608b4d6cc1dec0114e0b9ff4080bea12b134f489ab2bbc",
+            "r": "976d3a4e9d23326dc0baa9fa560b7c4e53f42864f508483a6473b6a11079b2db",
+            "s": "1b766e9ceb71ba6c01dcd46e0af462cd4cfa652ae5017d4555b8eeefe36e1932",
+            "k": "6d3e71882c3b83b156bb14e0ab184aa9fb728068d3ae9fac421187ae0b2f34c6"
+        },
+        {
+            "operation": "SIGN",
+            "expected": "OK",
+            "curve": "secp256r1",
+            "da": "e283871239837e13b95f789e6e1af63bf61c918c992e62bca040d64cad1fc2ef",
+            "digest": "b804cf88af0c2eff8bbbfb3660ebb3294138e9d3ebd458884e19818061dacff0",
+            "r": "35fb60f5ca0f3ca08542fb3cc641c8263a2cab7a90ee6a5e1583fac2bb6f6bd1",
+            "s": "ee59d81bc9db1055cc0ed97b159d8784af04e98511d0a9a407b99bb292572e96",
+            "k": "ad5e887eb2b380b8d8280ad6e5ff8a60f4d26243e0124c2f31a297b5d0835de2"
+        },
+        {
+            "operation": "SIGN",
+            "expected": "OK",
+            "curve": "secp256r1",
+            "da": "a3d2d3b7596f6592ce98b4bfe10d41837f10027a90d7bb75349490018cf72d07",
+            "digest": "85b957d92766235e7c880ac5447cfbe97f3cb499f486d1e43bcb5c2ff9608a1a",
+            "r": "d7c562370af617b581c84a2468cc8bd50bb1cbf322de41b7887ce07c0e5884ca",
+            "s": "b46d9f2d8c4bf83546ff178f1d78937c008d64e8ecc5cbb825cb21d94d670d89",
+            "k": "24fc90e1da13f17ef9fe84cc96b9471ed1aaac17e3a4bae33a115df4e5834f18"
+        },
+        {
+            "operation": "SIGN",
+            "expected": "OK",
+            "curve": "secp256r1",
+            "da": "53a0e8a8fe93db01e7ae94e1a9882a102ebd079b3a535827d583626c272d280d",
+            "digest": "3360d699222f21840827cf698d7cb635bee57dc80cd7733b682d41b55b666e22",
+            "r": "18caaf7b663507a8bcd992b836dec9dc5703c080af5e51dfa3a9a7c387182604",
+            "s": "77c68928ac3b88d985fb43fb615fb7ff45c18ba5c81af796c613dfa98352d29c",
+            "k": "5d833e8d24cc7a402d7ee7ec852a3587cddeb48358cea71b0bedb8fabe84e0c4"
+        },
+        {
+            "operation": "SIGN",
+            "expected": "OK",
+            "curve": "secp256r1",
+            "da": "4af107e8e2194c830ffb712a65511bc9186a133007855b49ab4b3833aefc4a1d",
+            "digest": "c413c4908cd0bc6d8e32001aa103043b2cf5be7fcbd61a5cec9488c3a577ca57",
+            "r": "8524c5024e2d9a73bde8c72d9129f57873bbad0ed05215a372a84fdbc78f2e68",
+            "s": "d18c2caf3b1072f87064ec5e8953f51301cada03469c640244760328eb5a05cb",
+            "k": "e18f96f84dfa2fd3cdfaec9159d4c338cd54ad314134f0b31e20591fc238d0ab"
+        },
+        {
+            "operation": "SIGN",
+            "expected": "OK",
+            "curve": "secp256r1",
+            "da": "78dfaa09f1076850b3e206e477494cddcfb822aaa0128475053592c48ebaf4ab",
+            "digest": "88fc1e7d849794fc51b135fa135deec0db02b86c3cd8cebdaa79e8689e5b2898",
+            "r": "c5a186d72df452015480f7f338970bfe825087f05c0088d95305f87aacc9b254",
+            "s": "84a58f9e9d9e735344b316b1aa1ab5185665b85147dc82d92e969d7bee31ca30",
+            "k": "295544dbb2da3da170741c9b2c6551d40af7ed4e891445f11a02b66a5c258a77"
+        },
+        {
+            "operation": "SIGN",
+            "expected": "OK",
+            "curve": "secp256r1",
+            "da": "80e692e3eb9fcd8c7d44e7de9f7a5952686407f90025a1d87e52c7096a62618a",
+            "digest": "41fa8d8b4cd0a5fdf021f4e4829d6d1e996bab6b4a19dcb85585fe76c582d2bc",
+            "r": "9d0c6afb6df3bced455b459cc21387e14929392664bb8741a3693a1795ca6902",
+            "s": "d7f9ddd191f1f412869429209ee3814c75c72fa46a9cccf804a2f5cc0b7e739f",
+            "k": "7c80fd66d62cc076cef2d030c17c0a69c99611549cb32c4ff662475adbe84b22"
+        },
+        {
+            "operation": "SIGN",
+            "expected": "OK",
+            "curve": "secp256r1",
+            "da": "5e666c0db0214c3b627a8e48541cc84a8b6fd15f300da4dff5d18aec6c55b881",
+            "digest": "2d72947c1731543b3d62490866a893952736757746d9bae13e719079299ae192",
+            "r": "2f9e2b4e9f747c657f705bffd124ee178bbc5391c86d056717b140c153570fd9",
+            "s": "f5413bfd85949da8d83de83ab0d19b2986613e224d1901d76919de23ccd03199",
+            "k": "2e7625a48874d86c9e467f890aaa7cd6ebdf71c0102bfdcfa24565d6af3fdce9"
+        },
+        {
+            "operation": "SIGN",
+            "expected": "OK",
+            "curve": "secp256r1",
+            "da": "f73f455271c877c4d5334627e37c278f68d143014b0a05aa62f308b2101c5308",
+            "digest": "e138bd577c3729d0e24a98a82478bcc7482499c4cdf734a874f7208ddbc3c116",
+            "r": "1cc628533d0004b2b20e7f4baad0b8bb5e0673db159bbccf92491aef61fc9620",
+            "s": "880e0bbf82a8cf818ed46ba03cf0fc6c898e36fca36cc7fdb1d2db7503634430",
+            "k": "62f8665fd6e26b3fa069e85281777a9b1f0dfd2c0b9f54a086d0c109ff9fd615"
+        },
+        {
+            "operation": "SIGN",
+            "expected": "OK",
+            "curve": "secp256r1",
+            "da": "b6faf2c8922235c589c27368a3b3e6e2f42eb6073bf9507f19eed0746c79dced",
+            "digest": "d9c83b92fa0979f4a5ddbd8dd22ab9377801c3c31bf50f932ace0d2146e2574da0d5552dbed4b18836280e9f94558ea6",
+            "r": "f5087878e212b703578f5c66f434883f3ef414dc23e2e8d8ab6a8d159ed5ad83",
+            "s": "306b4c6c20213707982dffbb30fba99b96e792163dd59dbe606e734328dd7c8a",
+            "k": "9980b9cdfcef3ab8e219b9827ed6afdd4dbf20bd927e9cd01f15762703487007"
+        },
+        {
+            "operation": "SIGN",
+            "expected": "OK",
+            "curve": "secp256r1",
+            "da": "118958fd0ff0f0b0ed11d3cf8fa664bc17cdb5fed1f4a8fc52d0b1ae30412181",
+            "digest": "76c8df4563375d34656f2d1dd3445c9d9f0c8da59dc015fa6122237e1a02039998c16b3935e281160923c6e21115d0a9",
+            "r": "e446600cab1286ebc3bb332012a2f5cc33b0a5ef7291d5a62a84de5969d77946",
+            "s": "cf89b12793ee1792eb26283b48fa0bdcb45ae6f6ad4b02564bf786bb97057d5a",
+            "k": "23129a99eeda3d99a44a5778a46e8e7568b91c31fb7a8628c5d9820d4bed4a6b"
+        },
+        {
+            "operation": "SIGN",
+            "expected": "OK",
+            "curve": "secp256r1",
+            "da": "3e647357cd5b754fad0fdb876eaf9b1abd7b60536f383c81ce5745ec80826431",
+            "digest": "bad1b2c4c35c54eede5d9dee6f6821bb0254395ae6a689ae7289790448ff787ea4e495ea418c0759c51144a74eba3ac9",
+            "r": "c4021fb7185a07096547af1fb06932e37cf8bd90cf593dea48d48614fa237e5e",
+            "s": "7fb45d09e2172bec8d3e330aa06c43fbb5f625525485234e7714b7f6e92ba8f1",
+            "k": "9beab7722f0bcb468e5f234e074170a60225255de494108459abdf603c6e8b35"
+        },
+        {
+            "operation": "SIGN",
+            "expected": "OK",
+            "curve": "secp256r1",
+            "da": "76c17c2efc99891f3697ba4d71850e5816a1b65562cc39a13da4b6da9051b0fd",
+            "digest": "c248cc5eb23ed0f6f03de308fffed1e5fdd918aef379946d7b66b8924dc38306feb28e85cc5ab5d7a3a0e55087ddecde",
+            "r": "4d5a9d95b0f09ce8704b0f457b39059ee606092310df65d3f8ae7a2a424cf232",
+            "s": "7d3c014ca470a73cef1d1da86f2a541148ad542fbccaf9149d1b0b030441a7eb",
+            "k": "77cffa6f9a73904306f9fcd3f6bbb37f52d71e39931bb4aec28f9b076e436ccf"
+        },
+        {
+            "operation": "SIGN",
+            "expected": "OK",
+            "curve": "secp256r1",
+            "da": "67b9dea6a575b5103999efffce29cca688c781782a41129fdecbce76608174de",
+            "digest": "b05d944f6752bfe003526499bb4d8721c0d25a7901999f67519b17665e907cd148b2ff1b451248d292866bcc81b506d9",
+            "r": "26fd9147d0c86440689ff2d75569795650140506970791c90ace0924b44f1586",
+            "s": "00a34b00c20a8099df4b0a757cbef8fea1cb3ea7ced5fbf7e987f70b25ee6d4f",
+            "k": "d02617f26ede3584f0afcfc89554cdfb2ae188c192092fdde3436335fafe43f1"
+        },
+        {
+            "operation": "SIGN",
+            "expected": "OK",
+            "curve": "secp256r1",
+            "da": "ecf644ea9b6c3a04fdfe2de4fdcb55fdcdfcf738c0b3176575fa91515194b566",
+            "digest": "847325a13b72de5a15cd899ced0920b8543ab26f9d3877fde99c5018efc78ddf14c00f88b06af7971181923aa46624d4",
+            "r": "a860c8b286edf973ce4ce4cf6e70dc9bbf3818c36c023a845677a9963705df8b",
+            "s": "5630f986b1c45e36e127dd7932221c4272a8cc6e255e89f0f0ca4ec3a9f76494",
+            "k": "53291d51f68d9a12d1dcdc58892b2f786cc15f631f16997d2a49bace513557d4"
+        },
+        {
+            "operation": "SIGN",
+            "expected": "OK",
+            "curve": "secp256r1",
+            "da": "4961485cbc978f8456ec5ac7cfc9f7d9298f99415ecae69c8491b258c029bfee",
+            "digest": "fd30608cf408dac5886ca156bdce7f75067e18172af79ca84f8d60d011b8a6b5ea33a92554d1ea34b105d5bd09062d47",
+            "r": "ef6fb386ad044b63feb7445fa16b10319018e9cea9ef42bca83bdad01992234a",
+            "s": "ac1f42f652eb1786e57be01d847c81f7efa072ba566d4583af4f1551a3f76c65",
+            "k": "373a825b5a74b7b9e02f8d4d876b577b4c3984168d704ba9f95b19c05ed590af"
+        },
+        {
+            "operation": "SIGN",
+            "expected": "OK",
+            "curve": "secp256r1",
+            "da": "587907e7f215cf0d2cb2c9e6963d45b6e535ed426c828a6ea2fb637cca4c5cbd",
+            "digest": "9d21e70e88c43cbab056c5fdeb63baa2660ebc44e0d1ef781f8f6bf58b28e3a2c9d5db051c8da3ba34796d8bcc7ba5cb",
+            "r": "08fabf9b57de81875bfa7a4118e3e44cfb38ec6a9b2014940207ba3b1c583038",
+            "s": "a58d199b1deba7350616230d867b2747a3459421811c291836abee715b8f67b4",
+            "k": "6b8eb7c0d8af9456b95dd70561a0e902863e6dfa1c28d0fd4a0509f1c2a647b2"
+        },
+        {
+            "operation": "SIGN",
+            "expected": "OK",
+            "curve": "secp256r1",
+            "da": "24b1e5676d1a9d6b645a984141a157c124531feeb92d915110aef474b1e27666",
+            "digest": "0bc6a254fa0016a5aa608309f9a97cf0c879370bae0b7b460da17c2694e8414db39ec8b5f943167372610fc146dd8b28",
+            "r": "6ec9a340b77fae3c7827fa96d997e92722ff2a928217b6dd3c628f3d49ae4ce6",
+            "s": "637b54bbcfb7e7d8a41ea317fcfca8ad74eb3bb6b778bc7ef9dec009281976f7",
+            "k": "88794923d8943b5dbcc7a7a76503880ff7da632b0883aaa60a9fcc71bf880fd6"
+        },
+        {
+            "operation": "SIGN",
+            "expected": "OK",
+            "curve": "secp256r1",
+            "da": "bce49c7b03dcdc72393b0a67cf5aa5df870f5aaa6137ada1edc7862e0981ec67",
+            "digest": "12520a7ef4f05f91b9f9a0fba73eddc813413c4d4764dc1c4b773c4afd5cd77b0e7f09d56e5931aec2958407c02774c0",
+            "r": "07e5054c384839584624e8d730454dc27e673c4a90cbf129d88b91250341854d",
+            "s": "f7e665b88614d0c5cbb3007cafe713763d81831525971f1747d92e4d1ca263a7",
+            "k": "89e690d78a5e0d2b8ce9f7fcbf34e2605fd9584760fa7729043397612dd21f94"
+        },
+        {
+            "operation": "SIGN",
+            "expected": "OK",
+            "curve": "secp256r1",
+            "da": "9dd0d3a3d514c2a8adb162b81e3adfba3299309f7d2018f607bdb15b1a25f499",
+            "digest": "a59ca4dd2b0347f4f2702a8962878a206775fd91047040be60463119f02aa829b7360b940b2785395406c280375c5d90ee655e51d4120df256b9a6287161c7fc",
+            "r": "275fa760878b4dc05e9d157fedfd8e9b1c9c861222a712748cb4b7754c043fb1",
+            "s": "699d906bb8435a05345af3b37e3b357786939e94caae257852f0503adb1e0f7e",
+            "k": "9106192170ccb3c64684d48287bb81bbed51b40d503462c900e5c7aae43e380a"
+        },
+        {
+            "operation": "SIGN",
+            "expected": "OK",
+            "curve": "secp256r1",
+            "da": "f9bf909b7973bf0e3dad0e43dcb2d7fa8bda49dbe6e5357f8f0e2bd119be30e6",
+            "digest": "9e359350e87e7573ad9894cd4aad6c6202a58e9938d098dbf65650fc6f04fce3664b9adb234bfa0821788223a306daaa3e62bd46b19d7eb7a725bc5bce8998f3",
+            "r": "4782903d2aaf8b190dab5cae2223388d2d8bd845b3875d37485c54e1ded1d3d8",
+            "s": "dfb40e406bfa074f0bf832771b2b9f186e2211f0bca279644a0ca8559acf39da",
+            "k": "e547791f7185850f03d0c58419648f65b9d29cdc22ed1de2a64280220cfcafba"
+        },
+        {
+            "operation": "SIGN",
+            "expected": "OK",
+            "curve": "secp256r1",
+            "da": "724567d21ef682dfc6dc4d46853880cfa86fe6fea0efd51fac456f03c3d36ead",
+            "digest": "ff5e80ccbb51b75742a1f0e632b4c6cd119692f2aca337378f7eb2f3b17fc3d912828b7e1655d2263d8757715eea31493aa89dfe1db143a8fa13f89a00379938",
+            "r": "2ba2ea2d316f8937f184ad3028e364574d20a202e4e7513d7af57ac2456804d1",
+            "s": "64fe94968d18c5967c799e0349041b9e40e6c6c92ebb475e80dd82f51cf07320",
+            "k": "79d6c967ed23c763ece9ca4b026218004c84dc2d4ccc86cf05c5d0f791f6279b"
+        },
+        {
+            "operation": "SIGN",
+            "expected": "OK",
+            "curve": "secp256r1",
+            "da": "29c5d54d7d1f099d50f949bfce8d6073dae059c5a19cc70834722f18a7199edd",
+            "digest": "e9518ad1c62d686b9df1f5ae1f6797d8c5944a65fcf2244b763f47b9bc5db8ec360cbd17180e6d24678bc36a1535276733bab7817610399ef6257ca43361dfa0",
+            "r": "acd9f3b63626c5f32103e90e1dd1695907b1904aa9b14f2132caef331321971b",
+            "s": "15c04a8bd6c13ed5e9961814b2f406f064670153e4d5465dcef63c1d9dd52a87",
+            "k": "0508ad7774908b5705895fda5c3b7a3032bf85dab7232bf981177019f3d76460"
+        },
+        {
+            "operation": "SIGN",
+            "expected": "OK",
+            "curve": "secp256r1",
+            "da": "0d8095da1abba06b0d349c226511f642dabbf1043ad41baa4e14297afe8a3117",
+            "digest": "9fd9a5f9b73f6d01894ceaf8a1e0327a0cac0dbc30153201bcccf09b6756e2f89198781e80a7ff5119cc2bb4402c731379f5ab5eda9264e3fe88b4b528e16598",
+            "r": "ebc85fc4176b446b3384ccc62fc2526b45665561a0e7e9404ac376c90e450b59",
+            "s": "8b2c09428e62c5109d17ed0cf8f9fd7c370d018a2a73f701effc9b17d04852c6",
+            "k": "5165c54def4026ab648f7768c4f1488bcb183f6db7ffe02c7022a529a116482a"
+        },
+        {
+            "operation": "SIGN",
+            "expected": "OK",
+            "curve": "secp256r1",
+            "da": "52fe57da3427b1a75cb816f61c4e8e0e0551b94c01382b1a80837940ed579e61",
+            "digest": "bfc07b9a8a8941b99ac47d607356e5b68d7534fb3faccfbe97751397af359d31fe239179a1d856ffac49a9738e888f599123ee96ae202fb93b897e26bc83202e",
+            "r": "f8250f073f34034c1cde58f69a85e2f5a030703ebdd4dbfb98d3b3690db7d114",
+            "s": "a9e83e05f1d6e0fef782f186bedf43684c825ac480174d48b0e4d31505e27498",
+            "k": "0464fe9674b01ff5bd8be21af3399fad66f90ad30f4e8ee6e2eb9bcccfd5185c"
+        },
+        {
+            "operation": "SIGN",
+            "expected": "OK",
+            "curve": "secp256r1",
+            "da": "003d91611445919f59bfe3ca71fe0bfdeb0e39a7195e83ac03a37c7eceef0df2",
+            "digest": "a051dcee66f456d9786785444cee2a3a342a8e27a5ebdf0e91553a0d257eea11af3a7df7e9310b46d95021a1880cd3f064c73447d92a31bacdb889f1e1390f49",
+            "r": "66d057fd39958b0e4932bacd70a1769bbadcb62e4470937b45497a3d4500fabb",
+            "s": "6c853b889e18b5a49ee54b54dd1aaedfdd642e30eba171c5cab677f0df9e7318",
+            "k": "ef9df291ea27a4b45708f7608723c27d7d56b7df0599a54bc2c2fabbff373b40"
+        },
+        {
+            "operation": "SIGN",
+            "expected": "OK",
+            "curve": "secp256r1",
+            "da": "48f13d393899cd835c4193670ec62f28e4c4903e0bbe5817bf0996831a720bb7",
+            "digest": "e1a00e6e38599d7eba1f1a8a6c7337e4dcbdd4f436f47c57d17ef85829f7e266b6bff67a001598db6b9ac032ad160d6f928f8724d2f10928cf953bc76c3fd2fb",
+            "r": "cf7fc24bdaa09ac0cca8497e13298b961380668613c7493954048c06385a7044",
+            "s": "f38b1c8306cf82ab76ee3a772b14416b49993fe11f986e9b0f0593c52ec91525",
+            "k": "efed736e627899fea944007eea39a4a63c0c2e26491cd12adb546be3e5c68f7d"
+        },
+        {
+            "operation": "SIGN",
+            "expected": "OK",
+            "curve": "secp256r1",
+            "da": "95c99cf9ec26480275f23de419e41bb779590f0eab5cf9095d37dd70cb75e870",
+            "digest": "bdcf1926e90c980373954c67d3c3c06ccb1a5076957673f12ddf23fa0cce7b3dc3ec2aec143a1ba58094e3da45e2b160092e1d943cf8f22fad35f8348575a0cf",
+            "r": "f2bc35eb1b8488b9e8d4a1dbb200e1abcb855458e1557dc1bf988278a174eb3b",
+            "s": "ed9a2ec043a1d578e8eba6f57217976310e8674385ad2da08d6146c629de1cd9",
+            "k": "4c08dd0f8b72ae9c674e1e448d4e2afe3a1ee69927fa23bbff3716f0b99553b7"
+        },
+        {
+            "operation": "SIGN",
+            "expected": "OK",
+            "curve": "secp256r1",
+            "da": "e15e835d0e2217bc7c6f05a498f20af1cd56f2f165c23d225eb3360aa2c5cbcf",
+            "digest": "da606bb1d0d25dd18a9c29096042e65e6b73086b30509962ea1aa75f25b74653c03a66620cba446f442765f28d7c55a5ff4f9693a6c7ce18e1196c25c12da48d",
+            "r": "a70d1a2d555d599bfb8c9b1f0d43725341151d17a8d0845fa56f3563703528a7",
+            "s": "4e05c45adf41783e394a5312f86e66871c4be4896948c85966879d5c66d54b37",
+            "k": "c9f621441c235fc47ec34eef4c08625df1ec74918e1f86075b753f2589f4c60b"
+        }
+    ]
+}
