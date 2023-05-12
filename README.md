@@ -98,4 +98,4 @@ Sure ! Checkout the [CONTRIBUTING](CONTRIBUTING.md) page.
 ## Contributors
 
 - [Florian Picca](https://github.com/FlorianPicca)
-- Mikael Benhaiem
+- [Mikael Benhaiem](https://github.com/MikaelBenhaiem)
