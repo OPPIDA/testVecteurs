@@ -37,10 +37,10 @@ def install(data, path):
     # Configure
     import subprocess
     config = os.path.join(unzipped_path, "config")
-    Configuration = os.path.join(unzipped_path, "Configuration")
+    Configure = os.path.join(unzipped_path, "Configure")
     # zipfile loses execution rights when unzipping...
     os.chmod(config, 0o755)
-    os.chmod(Configuration, 0o755)
+    os.chmod(Configure, 0o755)
     # important to run ./config from the unzipped directory (cwd=...) otherwise files are created in the same directory as this script
     subprocess.check_output(["./config", f"--prefix={os.path.abspath(unzipped_path)}", f"--openssldir={os.path.abspath(unzipped_path)}", "shared"], cwd=unzipped_path)
 
