@@ -176,7 +176,7 @@ def getOpenSSLReleases():
             url = "https://api.github.com/repos/openssl/openssl/tags?page={}".format(page)
             r = requests.get(url).json()
             for e in r:
-                if e["name"].startswith("OpenSSL_") and "pre" not in e["name"]:
+                if e["name"].lower().startswith("openssl") and "pre" not in e["name"]:
                     releases[e["name"]] = e["zipball_url"]
             page += 1
         with open(fi, "wb") as f:
