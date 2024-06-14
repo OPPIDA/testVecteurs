@@ -4,7 +4,7 @@ Program to run various test vectors (in particular [those provided by the NIST](
 
 Some of the key features of this tool are :
    - Install target library version from GitHub automatically.
-   - GUI based on PySimpleGUI
+   - GUI based on FreeSimpleGUI
 
 ## Dependencies
 
@@ -17,7 +17,7 @@ sudo apt install build-essential default-jdk python3-tk
 The following python modules are needed.
 
 ```
-sudo python3 -m pip install pycryptodome cryptography beautifulsoup4 pysimplegui
+sudo python3 -m pip install pycryptodome cryptography beautifulsoup4 freesimplegui
 ```
 
 ## Usage

@@ -1,4 +1,4 @@
-import PySimpleGUI as psg
+import FreeSimpleGUI as psg
 from .Views.RunTestsWindow import RunTestsWindow
 from .Views.LibCreateWindow import LibCreateWindow
 
