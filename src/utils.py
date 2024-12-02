@@ -200,23 +200,24 @@ def getBouncyCastleReleases():
             return pickle.load(f)
     except:
         releases = {}
-        url = "http://www.bouncycastle.org/archive/"
+        url = "https://repo1.maven.org/maven2/org/bouncycastle/"
         r = requests.get(url)
         r = bs4.BeautifulSoup(r.text, features='html5lib')
-        for e in r.body.table.tbody.find_all('a'):
+        for e in r.body.find_all('a'):
             href = e["href"]
-            if href.startswith("?") or href == "/":
+            if not href.startswith("bcprov-jdk"):
                 continue
             r2 = requests.get(url + href)
             r2 = bs4.BeautifulSoup(r2.text, features='html5lib')
-            for a in r2.body.table.tbody.find_all('a'):
+            for a in r2.body.find_all('a'):
                 dl = a["href"]
-                if dl.startswith("?") or dl == "/":
+                if not dl.endswith("/") or dl.startswith("."):
                     continue
-                if not dl.startswith("bcprov-jdk") or not dl.endswith(".jar"):
+                release = url + href + dl + href[:-1] + "-" + dl[:-1] + ".jar"
+                if requests.get(release).status_code != 200:
                     continue
-                name = "bcprov {}.{} {}".format(href[0], href[1:3], dl.split("-")[1])
-                releases[name] = url+href+dl
+                name = "bcprov {} {}".format(dl[:-1], href.split("-")[1][:-1])
+                releases[name] = release
         with open(fi, "wb") as f:
             pickle.dump(releases, f)
         return releases
