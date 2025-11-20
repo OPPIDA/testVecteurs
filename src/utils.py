@@ -275,9 +275,7 @@ def fetch_all_mbedtls_releases():
     GITHUB_API_TOKEN = environ.get("GHAT")
 
     if GITHUB_API_TOKEN is None:
-        perror("A GitHub token is required to fetch MbedTLS releases")
-        sleep(10)
-        return
+        raise Exception("A GitHub token is required to fetch MbedTLS releases.\nProvide it by environnement variable : GHAT=<github token>")
 
     url = "https://api.github.com/repos/Mbed-TLS/mbedtls/releases"
     headers = {
