@@ -1,6 +1,9 @@
 # Author : Florian Picca <florian.picca@oppida.fr>
 # Date : October 2019
 
+from requests import get
+from os import environ
+from time import sleep
 from enum import Enum
 import requests
 import bs4
@@ -172,15 +175,29 @@ def getOpenSSLReleases():
         releases = {}
         page = 0
         r = None
+        min_version_reached = False
         while r != []:
+            if min_version_reached == True:
+                break
+
             url = "https://api.github.com/repos/openssl/openssl/tags?page={}".format(page)
             r = requests.get(url).json()
+            print(r)
+
             for e in r:
+                # We don't want versions <= OpenSSL_0_9_8
+                if e["name"] == "OpenSSL_0_9_8":
+                    min_version_reached = True
+                    break
+
                 if e["name"].lower().startswith("openssl") and "pre" not in e["name"]:
                     releases[e["name"]] = e["zipball_url"]
+
             page += 1
+
         with open(fi, "wb") as f:
             pickle.dump(releases, f)
+
         return releases
 
 
@@ -222,6 +239,91 @@ def getBouncyCastleReleases():
             pickle.dump(releases, f)
         return releases
 
+def sanitize_name(name: str):
+    """
+    Parfois, les noms des release MbedTLS sont de la forme : vX.Y.Z
+    au lieu d'être de la forme mbedtls-X.Y.Z. Cette fonction permet
+    de mettre ceux du cas n°1 dans le cas n°1.
+
+    """
+
+    if name.startswith("v"):
+        return "mbedtls-" + name.split("v", 1)[1]
+
+    return name
+
+def release_to_download_url(release):
+    """
+    Attention, adapté uniquement pour MbedTLS. On souhaite :
+        - Avoir l'url de la release en .tar.bz2 si il existe (c'est donc un "asset")
+        - Sinon prendre l'archive créer par github (ce n'est pas un "asset")
+
+    """
+
+    # 1. On regarde si il existe une release sous forme d'asset
+    for asset in release["assets"]:
+        asset_url = asset["browser_download_url"]
+
+        if asset_url.endswith(".tar.bz2"):
+            return asset_url
+
+    # 2. Sinon, on créer un lien vers l'archive de GitHub
+    release_base_url = "https://github.com/Mbed-TLS/mbedtls/archive/refs/tags/"
+    return release_base_url + release["tag_name"] + ".tar.gz"
+
+def fetch_all_mbedtls_releases():
+    GITHUB_API_TOKEN = environ.get("GHAT")
+
+    if GITHUB_API_TOKEN is None:
+        perror("A GitHub token is required to fetch MbedTLS releases")
+        sleep(10)
+        return
+
+    url = "https://api.github.com/repos/Mbed-TLS/mbedtls/releases"
+    headers = {
+        "Accept": "application/vnd.github+json",
+        "Authorization": f"Bearer {GITHUB_API_TOKEN}",
+        "X-GitHub-Api-Version": "2022-11-28"
+    }
+
+    all_releases = {}
+    page = 1
+    per_page = 100
+
+    while True:
+        response = get(url, headers=headers, params={ "page": page, "per_page": per_page })
+
+        if response.status_code != 200:
+            if response.status_code == 401:
+                print("Warning Merci de renseigner un token API GitHub dans config.py")
+                exit(1)
+
+            print(f"Error: {response.status_code} - {response.text}")
+            break
+
+        releases = response.json()
+        for release in releases:
+            release_name = release["tag_name"]
+            release_name = sanitize_name(release_name)
+            release_download_url = release_to_download_url(release)
+
+            if release_download_url is None:
+                print(f"Release {release_name} ignoré car pas de release en .tar.bz2")
+
+            all_releases.update({release_name: release_download_url})
+
+        # Check if there are more pages
+        if 'Link' in response.headers:
+            links = response.headers['Link']
+            if 'rel="next"' not in links:
+                break # No more pages
+        else:
+            break # No pagination links found
+
+        page += 1
+
+    return all_releases
+
 
 def getMbedTLSReleases():
     """
@@ -239,20 +341,7 @@ def getMbedTLSReleases():
         with open(fi, "rb") as f:
             return pickle.load(f)
     except:
-        releases = {}
-        page = 0
-        r = None
-        while r != []:
-            url = "https://api.github.com/repos/ARMmbed/mbedtls/tags?page={}".format(page)
-            r = requests.get(url).json()
-            for e in r:
-                if e["name"].startswith("mbedtls-"):
-                    releases[e["name"]] = e["zipball_url"]
-            page += 1
-        with open(fi, "wb") as f:
-            pickle.dump(releases, f)
-        return releases
-
+        return fetch_all_mbedtls_releases()
 
 def perror(m):
     """

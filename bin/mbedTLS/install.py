@@ -11,41 +11,46 @@ import os
 import sys
 import hashlib
 import requests
+import tarfile
+import subprocess
 
-def install(data, path):
+def install(data, path, extension):
     """
-    Installs the library.
-    You might need to change this function.
+    Installs the library from a tar.gz or tar.bz2 archive.
 
-    :param data: The dowloaded content.
-    :param path: The path in which the library will be installed
+    :param data: The downloaded content (bytes).
+    :param path: The path in which the library will be installed.
+    :param extension: "gz" for .tar.gz or "bz2" for .tar.bz2
     """
-    # write ZIP to tmp file (needed for extraction)
-    tmp_file = os.path.join(path, "tmp_file")
+    # write TAR to tmp file (needed for extraction)
+    tmp_file = os.path.join(path, f"tmp_file.tar.{extension}")
     with open(tmp_file, "wb") as f:
         f.write(data)
 
-    # unzip the archive
-    import zipfile
-    with zipfile.ZipFile(tmp_file, 'r') as zip_ref:
-        zip_ref.extractall(path)
-        # Get the first directory name so we can move into it later
-        name = zip_ref.filelist[0].filename
+    # open the archive depending on extension
+    mode = "r:gz" if extension == "gz" else "r:bz2"
+    with tarfile.open(tmp_file, mode) as tar:
+        tar.extractall(path)
+        # get the top-level directory name
+        # (first member with a directory name)
+        members = tar.getmembers()
+        top = members[0].name.split("/")[0]
     os.remove(tmp_file)
-    unzipped_path = os.path.join(path, name)
 
-    build_dir = os.path.join(unzipped_path, "build")
+    unarchived_path = os.path.join(path, top)
+
+    # build directory
+    build_dir = os.path.join(unarchived_path, "build")
     if not os.path.exists(build_dir):
         os.mkdir(build_dir)
 
-    # building
-    import subprocess
-      ##mkdir buildDir && cd buildDir
- ## cmake -DENABLE_TESTING=Off -DUSE_SHARED_MBEDTLS_LIBRARY=On -DCMAKE_BUILD_TYPE=Release .. >> $log
-  ##make >> $log
-    subprocess.check_output(["cmake", "-DENABLE_TESTING=Off", "-DUSE_SHARED_MBEDTLS_LIBRARY=On", "-DCMAKE_BUILD_TYPE=Release", ".."], cwd=build_dir)
-    # zipfile loses execution rights when unzipping...
-    ##os.chmod(config, 0o755)
+    # cmake & make
+    subprocess.check_output(
+        ["cmake", "-DENABLE_TESTING=Off",
+                 "-DUSE_SHARED_MBEDTLS_LIBRARY=On",
+                 "-DCMAKE_BUILD_TYPE=Release", ".."],
+        cwd=build_dir
+    )
     subprocess.check_output(["make"], cwd=build_dir)
 
 def buildSymlinks(currentLib, currentPath, currentInclude, path):
@@ -94,7 +99,7 @@ if __name__ == "__main__":
         # if not, download and extract it
         content = requests.get(url).content
         # proceed to install the library
-        install(content, PATH)
+        install(content, PATH, url.split(b".")[-1])
 
     # Update symbolic links
     PATH = os.path.dirname(PATH)
